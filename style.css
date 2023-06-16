@@ -127,6 +127,7 @@ aside {
     font-size: 20px;
     height: 70px;
     align-items: center;
+    border-bottom: 1px  solid var(--azulEscuro)  ;
 }
 
 .cad_ofertas_campos >td> input {
@@ -143,12 +144,16 @@ aside {
 .cad_ofertas_NomeCampos :nth-child(2){
     width: 5%;
 }
+.cad_ofertas_NomeCampos :nth-child(3){
+    width: 8%;
+}
 .cad_ofertas_NomeCampos :nth-child(9){
     width: 7%;
 }
 .cad_ofertas_campos > td{
     width: 13%;
     text-align:  center;
+   
 }
 .cad_ofertas_campos :nth-child(9){
     width: 7%;
@@ -162,5 +167,7 @@ aside {
 .cad_ofertas_campos :nth-child(2){
     min-width: 30px;
     width: 5%;
-
+}
+.cad_ofertas_campos :nth-child(3){
+    width: 8%;
 }
