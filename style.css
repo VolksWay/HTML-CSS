@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: var(--font1);
+}
+
+:root {
+    /* Cores */
+    --azulEscuro: #060821;
+    --amarelo: #FFD100;
+    --branco: #ffffff;
+    --azulClaro: #00B1EB;
+    --vermelho: #DF0B0B;
+
+    /* Fontes */
+    --font1: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-color: var(--azulEscuro);
+    height: 113px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid var(--amarelo);
+
+}
+
+.logo img {
+    width: 150px;
+    height: 108px;
+}
+
+header>div>h1 {
+    width: 80vw;
+    text-align: center;
+    color: var(--branco);
+    font-size: 40px;
+}
+
+.cad_ofertas {
+    display: flex;
+}
+
+aside {
+    width: 99px;
+    height: 80vh;
+    background-color: var(--azulClaro);
+
+}
+
+.cad_ofertas_collumn {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 99px);
+}
+
+.cad_ofertas_corpo {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+}
+
+.cad_ofertas_pesquisa {
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cad_ofertas_pesquisa>input {
+    border: 1px solid #000000;
+    border-radius: 30px;
+    height: 36px;
+    text-align: center;
+}
+
+.cad_ofertas_btn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.cad_ofertas_btn>button {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    height: 36px;
+    border-radius: 30px;
+    border: none;
+    color: var(--branco);
+}
+
+.cad_ofertas_btn :nth-child(1) {
+    background: var(--amarelo);
+    color: var(--azulEscuro);
+    width: 140px;
+}
+
+.cad_ofertas_btn :nth-child(2) {
+    background: var(--vermelho);
+    width: 100px;
+}
+
+.cad_ofertas_btn :nth-child(3) {
+    background: var(--azulClaro);
+    width: 100px;
+}
+
+.cad_ofertas_NomeCampos {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    height: 70px;
+    align-items: center;
+}
+
+.cad_ofertas_campos {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 70px;
+    align-items: center;
+}
+
+.cad_ofertas_campos >td> input {
+    width: 30px;
+    height: 20px;
+}
+.cad_ofertas_NomeCampos > td{
+    width: 13%;
+    text-align:  center;
+}
+.cad_ofertas_NomeCampos :nth-child(1){
+    width: 5%;
+}
+.cad_ofertas_NomeCampos :nth-child(2){
+    width: 5%;
+}
+.cad_ofertas_NomeCampos :nth-child(9){
+    width: 7%;
+}
+.cad_ofertas_campos > td{
+    width: 13%;
+    text-align:  center;
+}
+.cad_ofertas_campos :nth-child(9){
+    width: 7%;
+    margin-right: 10px;
+}
+.cad_ofertas_campos :nth-child(1){
+    min-width: 30px;
+    width: 5%;
+    height: 30px;
+}
+.cad_ofertas_campos :nth-child(2){
+    min-width: 30px;
+    width: 5%;
+
+}
