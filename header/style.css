@@ -93,7 +93,7 @@ header nav {
 }
 
 /* Footer */
-footer {
+/* footer {
     background-color: var(--cor-primaria);
     width: 100vw;
     height: 291px;
@@ -134,7 +134,7 @@ footer span {
 .nav_mobile {
     display: none;
 }
-
+ */
 
 
 @media screen and (max-width: 1700px) {
@@ -145,13 +145,19 @@ footer span {
     .imgs_social_medias {
         width: 17%;
     }
+    
 }
+/*main*/
 
 @media screen and (max-width: 1300px) {
     header a {
         font-size: 18px;
     }
+    .imgIlustracao{
+        display: none;
+    }
 }
+
 
 @media screen and (max-width: 1100px) {
     header a {
