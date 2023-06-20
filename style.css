@@ -44,7 +44,7 @@ header a {
 main {
     display: flex;
     background: linear-gradient(50deg, #ffffff 70%, var(--camada_geometrica) 30%);
-    height: 1000px;
+    height: 797px;
     flex-direction: column;
 
 }
@@ -239,11 +239,6 @@ footer {
     padding-bottom: 15px;
 }
 
-.ilustracao {
-    display: flex;
-
-    align-items: center;
-}
 
 section {
     /*     background-color:rgb(155, 245, 245); */
@@ -273,9 +268,9 @@ section {
 }
 
 .ilustracao {
-    height: 606px;
-    width: 483px;
-    margin-left: 40px;
+    height: 470px;
+    width: 405px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
 }
