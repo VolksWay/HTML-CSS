@@ -18,11 +18,11 @@
 }
 
 
- .posicionamento {
-        height: 100%;
-        max-width: 1920px;
-        margin: auto;  
-} 
+.produtos_posicionamento {
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
 
 header {
     background-color: var(--dark_blue);
@@ -68,25 +68,25 @@ h1 {
 
 /*______________________SEÇAO BANNER______________*/
 
-.banner {
+.produtos_banner {
     background-image: url(./img/banner_produto.png);
     height: calc(100vh - 150px);
     background-size: cover;
     display: flex;
     position: relative;
-    
+
 }
- 
-.banner::after {
+
+.produtos_banner::after {
     content: "";
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(2px);
     z-index: 0;
-} 
+}
 
 
-.banner_conteudo {
+.produtos_banner_conteudo {
     color: white;
     text-transform: uppercase;
     /* background-color: beige; */
@@ -100,25 +100,25 @@ h1 {
     height: 200px;
     z-index: 2;
 
-    
+
 
 
 }
 
-.banner_conteudo h2 {
+.produtos_banner_conteudo h2 {
     font-size: 50px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
 }
 
-.banner_conteudo p {
+.produtos_banner_conteudo p {
     margin-top: 40px;
     font-size: 16px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
 }
 
-.banner_conteudo .btn_banner {
+.produtos_banner_conteudo .produtos_btn_banner {
     background-color: var(--yellow);
     color: var(--dark_blue);
     text-decoration: none;
@@ -131,10 +131,10 @@ h1 {
     width: 150px;
     height: 55px;
     padding: 10px;
-    font-weight: bolder
+    font-weight: bolder;
 }
 
-.circulos{
+.produtos_circulos {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -146,7 +146,7 @@ h1 {
 
 }
 
-.circle {
+.produtos_circle {
     border-radius: 50%;
     width: 18px;
     height: 18.81px;
@@ -158,7 +158,7 @@ h1 {
 }
 
 
-.ativo {
+.produtos_ativo {
     background-color: var(--light_blue);
 }
 
@@ -166,15 +166,14 @@ h1 {
 
 /*______________________SEÇAO OFERTAS ESPECIAIS______________*/
 
-.iconesOfertas{
-    background-color: #FFD100;
-    height: 30px;
-    margin-top: 10px;
+.produtos_setaOfertas {
+    height: 40px;
+    margin-top: 140px;
 
 
 }
 
-.ofertas_h2 {
+.produtos_ofertas_h2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,11 +185,12 @@ h1 {
 }
 
 
-.ofertas_h2::before{
+.produtos_ofertas_h2::before {
     content: "ofertas";
     color: var(--dark_blue);
 }
-.ofertas_h2::after{
+
+.produtos_ofertas_h2::after {
     content: "especiais";
     color: var(--light_blue);
 }
@@ -205,7 +205,7 @@ h1 {
 
 /*OFERTAS*/
 
-.ofertas_especiais {
+.produtos_ofertas_especiais {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -213,9 +213,9 @@ h1 {
 
 }
 
-.card_ofertas1,
-.card_ofertas2,
-.card_ofertas3 {
+.prod_card_ofertas1,
+.prod_card_ofertas2,
+.prod_card_ofertas3 {
     background-color: #195F8C;
     width: 350px;
     height: 150px;
@@ -226,9 +226,9 @@ h1 {
     border-radius: 5px;
 }
 
-.card_ofertas1 h3,
-.card_ofertas2 h3,
-.card_ofertas3 h3 {
+.prod_card_ofertas1 h3,
+.prod_card_ofertas2 h3,
+.prod_card_ofertas3 h3 {
     font-size: 16px;
     text-transform: capitalize;
     margin-top: 10px;
@@ -236,9 +236,9 @@ h1 {
 
 }
 
-.card_ofertas1 h4,
-.card_ofertas2 h4,
-.card_ofertas3 h4 {
+.prod_card_ofertas1 h4,
+.prod_card_ofertas2 h4,
+.prod_card_ofertas3 h4 {
     font-size: 12px;
     text-transform: capitalize;
     margin-left: 10px;
@@ -246,9 +246,9 @@ h1 {
 
 }
 
-.card_ofertas1 img,
-.card_ofertas2 img,
-.card_ofertas3 img {
+.prod_card_ofertas1 img,
+.prod_card_ofertas2 img,
+.prod_card_ofertas3 img {
     width: 250px;
     /* position: absolute; */
     margin-top: 30px;
@@ -256,9 +256,9 @@ h1 {
 
 }
 
-.card_ofertas1 span,
-.card_ofertas2 span,
-.card_ofertas3 span {
+.prod_card_ofertas1 span,
+.prod_card_ofertas2 span,
+.prod_card_ofertas3 span {
     font-size: 16px;
     color: var(--dark_blue);
     font-weight: 900;
@@ -269,19 +269,19 @@ h1 {
 
 .card_ofertas1 h5,
 .card_ofertas2 h5,
-.card_ofertas3 h5 {
+.prod_card_ofertas3 h5 {
     font-size: 12px;
     color: #000000;
     margin: 2px auto;
 
 }
 
-.card_ofertas1 .btn_card,
-.card_ofertas2 .btn_card,
-.card_ofertas3 .btn_card {
+.prod_card_ofertas1 .prod_btn_card,
+.prod_card_ofertas2 .prod_btn_card,
+.prod_card_ofertas3 .prod_btn_card {
     background-color: var(--light_blue);
 
-        filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
 
     width: 230px;
     padding: 10px 10px;
@@ -296,22 +296,26 @@ h1 {
 
 }
 
-.card_ofertas1 h6,
-.card_ofertas2 h6,
-.card_ofertas3 h6 {
+.prod_card_ofertas1 h6,
+.prod_card_ofertas2 h6,
+.prod_card_ofertas3 h6 {
     color: rgba(0, 0, 0, 0.50);
     font-size: 12px;
     text-transform: capitalize;
     margin: 1px auto;
-    
+
 
 }
 
 
 /*______________________SEÇAO PROMOCOES______________*/
 
+.prod_setaPromos {
+    height: 40px;
+    margin: 100px 25px 45px 25px;
+}
 
-.promocoes h2 {
+.prod_promocoes h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -325,7 +329,7 @@ h1 {
 
 }
 
-.promocoes p {
+.prod_promocoes p {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -339,7 +343,7 @@ h1 {
     font-size: 14px;
 }
 
-.promocoes>div {
+.prod_promocoes>div {
     background-color: var(--dark_blue);
     height: 480px;
     margin-top: -170px;
@@ -349,19 +353,21 @@ h1 {
 }
 
 
-.card_promo1 img,
-.card_promo2 img,
-.card_promo3 img,
-.card_promo4 img,
-.card_promo5 img {
+.prod_card_promo1 img,
+.prod_card_promo2 img,
+.prod_card_promo3 img,
+.prod_card_promo4 img,
+.prod_card_promo5 img {
     width: 200px;
     border-radius: 20px 20px 0px 0px;
     position: relative;
     margin: 10px;
 }
 
-.card_azul {
+.prod_card_azul {
     background-color: var(--dark_blue2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
     width: 210px;
     height: 100px;
 
@@ -378,19 +384,18 @@ h1 {
 
 }
 
-.pneu_preco {
+.prod_preco {
     background-color: white;
     border-radius: 20px;
     height: 25px;
     width: 110px;
     margin-top: -5px;
-    margin-left: 13px;
     margin-bottom: 10px;
     padding: 3px 10px;
     color: var(--dark_blue);
 }
 
-.card_azul h3 {
+.prod_card_azul h3 {
     color: white;
     text-transform: capitalize;
     font-size: 16px;
@@ -398,14 +403,14 @@ h1 {
     font-weight: lighter;
 }
 
-.card_azul h4 {
+.prod_card_azul h4 {
     color: white;
     font-size: 12px;
     font-weight: lighter;
     text-transform: capitalize;
 }
 
-.card_azul span {
+.prod_card_azul span {
     color: var(--yellow);
     font-size: 16px;
     font-weight: lighter;
@@ -417,29 +422,36 @@ h1 {
 /*______________________SEÇAO NOTICIAS RECENTES______________*/
 
 
-.noticias_h2 {
+.prod_noticias_h2 {
     display: flex;
     align-items: center;
-    margin-left: 135px;
+    margin-left: 90px;
     margin-top: 70px;
     text-transform: capitalize;
-    gap: 10px;
-    font-size: 20px;
+    gap: 3px;
+    font-size: 30px;
     margin-bottom: 100px;
+    font-weight: 900;
 
 }
 
-.noticias_h2 .h2_noticias {
+
+.prod_noticias_h2::before {
+    content: "noticias";
     color: var(--dark_blue);
-
 }
 
-.noticias_h2 .h2_recentes {
+.prod_noticias_h2::after {
+    content: "recentes";
     color: var(--light_blue);
-
 }
 
-.noticias_recentes {
+
+
+
+
+
+.prod_noticias_recentes {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -448,7 +460,7 @@ h1 {
 
 }
 
-.noticias_recentes2 {
+.prod_noticias_recentes2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -457,13 +469,13 @@ h1 {
 
 }
 
-.card_noticias img {
+.prod_card_noticias img {
     width: 400px;
     border-radius: 10px 10px 0px 0px;
 
 }
 
-.card_branco {
+.prod_card_branco {
     width: 400px;
     height: 350px;
     background: #FFFFFF;
@@ -475,14 +487,14 @@ h1 {
 
 }
 
-.card_branco h3 {
+.prod_card_branco h3 {
     color: var(--dark_blue);
     font-size: 14px;
     margin: 10px 20px;
     font-weight: 900;
 }
 
-.card_branco p {
+.prod_card_branco p {
     color: var(--dark_blue);
     font-size: 12px;
     margin-left: 20px;
@@ -490,7 +502,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-.card_branco .btn_noticias {
+.prod_card_branco .prod_btn_noticias {
     background-color: var(--yellow);
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
     font-size: 12px;
@@ -513,7 +525,7 @@ h1 {
 
 footer {
     background-color: var(--dark_blue);
-    height: 250px;
+    height: 260px;
     margin-top: 100px;
 
     display: flex;
@@ -527,8 +539,8 @@ footer {
 }
 
 footer .divfooter1 img {
-    width: 100px;
-    margin: 0 -60px;
+    width: 145px;
+    margin: 0 -90px;
 }
 
 footer .divfooter1 h2 {
@@ -560,13 +572,14 @@ footer .divfooter3 li {
 footer .divfooter4 {
     display: flex;
     align-items: center;
+    gap: 10px;
 
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 
 }
 
 footer .divfooter4 .insta {
-    width: 30px;
+    width: 35px;
 }
 
 footer .divfooter4 .face {
@@ -575,7 +588,7 @@ footer .divfooter4 .face {
 }
 
 footer .divfooter4 .in {
-    width: 40px;
+    width: 37px;
 }
 
 
@@ -586,36 +599,33 @@ footer .divfooter4 .in {
 
 @media screen and (max-width: 1200px) {
 
-
-    .posicionamento_header img {
-        width: 110px;
-        margin: -11px 90px;
-    }
-
-    .posicionamento_header nav {
+    header nav {
         margin-right: 100px;
     }
 
-    .noticias_recentes {
+    .prod_noticias_recentes {
         display: none;
     }
 
-    .card_promo1 img,
-    .card_promo2 img {
+    .prod_card_promo1 img,
+    .prod_card_promo2 img {
         display: none;
     }
 
+    .produtos_setaOfertas {
+        margin: 140px 25px;
+    }
 
 
-    .card_noticias img {
+    .prod_card_noticias img {
         width: 300px;
     }
 
-    .card_branco {
+    .prod_card_branco {
         width: 300px;
     }
 
-    .card_branco .btn_noticias {
+    .prod_card_branco .prod_btn_noticias {
         padding: 10px 90px;
     }
 
@@ -629,13 +639,13 @@ footer .divfooter4 .in {
             margin: 3px;
         }
 
-        .menu_barras {
+        .produtosMenu_barras {
             display: initial;
             margin-right: 40px;
 
         }
 
-        .menu_barras svg {
+        .produtosMenu_barras svg {
             height: 50px;
             fill: white;
         }
@@ -663,38 +673,38 @@ footer .divfooter4 .in {
         }
 
 
-        .banner {
+        .produtos_banner {
 
             background-repeat: no-repeat;
             height: calc(100vh - 300px);
         }
 
-        .banner_conteudo h2 {
+        .produtos_banner_conteudo h2 {
             font-size: 30px;
         }
 
-        .banner_conteudo {
+        .produtos_banner_conteudo {
             margin: 15px 0 0 20px;
         }
 
-        .ofertas_h2 {
+        .produtos_ofertas_h2 {
 
             font-size: 20px;
         }
 
-        .card_ofertas1,
-        .card_ofertas2 {
+        .prod_card_ofertas1,
+        .prod_card_ofertas2 {
             display: none;
 
         }
 
-        .noticias_h2 {
+        .prod_noticias_h2 {
             margin-top: 30px;
             margin-bottom: 50px;
             margin-left: 252px;
         }
 
-        .noticias_recentes2 {
+        .prod_noticias_recentes2 {
             flex-wrap: wrap;
             gap: 20px;
         }
@@ -745,11 +755,11 @@ footer .divfooter4 .in {
 
         @media screen and (max-width: 600px) {
 
-            .card_promo4 {
+            .prod_card_promo4 {
                 display: none;
             }
 
-            .noticias_h2 {
+            .prod_noticias_h2 {
                 margin-left: 170px;
             }
 
@@ -766,8 +776,8 @@ footer .divfooter4 .in {
                 gap: 25px;
             }
 
-            .card_promo3,
-            .card_promo4 {
+            .prod_card_promo3,
+            .prod_card_promo4 {
                 display: none;
             }
 
@@ -775,32 +785,32 @@ footer .divfooter4 .in {
                 background-image: none;
             }
 
-            .banner_conteudo {
+            .produtos_banner_conteudo {
                 margin: 15px;
             }
 
-            .banner_conteudo h2,
-            .banner_conteudo p {
+            .produtos_banner_conteudo h2,
+            .produtos_banner_conteudo p {
                 color: var(--dark_blue);
                 text-align: center;
                 text-shadow: none;
                 margin-top: 20px;
             }
 
-            .banner_conteudo h2 {
+            .produtos_banner_conteudo h2 {
                 font-size: 25px;
             }
 
-            .banner_conteudo p {
+            .produtos_banner_conteudo p {
                 font-size: 16px;
             }
 
-            .banner_conteudo .btn_banner {
+            .produtos_banner_conteudo .produtos_btn_banner {
                 margin-left: 70px;
 
             }
 
-            .ofertas_h2 {
+            .produtos_ofertas_h2 {
                 font-size: 16px;
                 margin: 20px;
                 margin-top: -5px;
@@ -810,25 +820,25 @@ footer .divfooter4 .in {
             margin-left: 10px;
             } */
 
-            .promocoes h2 {
+            .prod_promocoes h2 {
                 font-size: 25px;
             }
 
-            .promocoes p {
+            .prod_promocoes p {
                 font-size: 12px;
             }
 
-            .noticias_h2 {
+            .prod_noticias_h2 {
                 font-size: 16px;
                 margin-left: 52px;
 
             }
 
-            .card_noticias img {
+            .prod_card_noticias img {
                 margin-left: -15px;
             }
 
-            .card_branco {
+            .prod_card_branco {
                 margin-left: -15px;
             }
 
