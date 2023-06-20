@@ -30,6 +30,7 @@
 
 .direction_row {
     flex-direction: row;
+
 }
 
 .justify_center {
@@ -91,6 +92,61 @@ header nav {
     font-weight: 400;
     backdrop-filter: blur(25px);
 }
+
+h1 {
+    font-family: var(--fonte-primaria);
+    font-size: 25px;
+    color: var(--cor-primaria);
+}
+
+.banner_home {
+    height: 510px;
+    background-image: url(../img/adm.png);
+    align-items: center;
+    color: #00B0FF;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.banner_texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+  
+}
+
+.banner_home img {
+    width: 500px;
+    height: 481px;
+    margin: 55px;
+}
+
+.slogan {
+    font-size: 35px;
+
+
+}
+
+.container_home{
+    display: flex;
+}
+
+.botao {
+    width: 245px;
+    height: 45px;
+    border-radius: 8px 8px;
+    background-color: var(--cor-secundaria);
+    font-size: 20px;
+    color: var(--cor-primaria);
+    text-align: center;
+
+
+
+
+}
+
+
 
 /* Footer */
 footer {
@@ -267,7 +323,7 @@ footer span {
         justify-content: initial;
         padding: 0% 5% 0% 5%;
     }
-    
+
     .navegacao_header {
         margin-bottom: 3%;
         margin-top: 1%;
