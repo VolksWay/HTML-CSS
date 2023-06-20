@@ -2,6 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --font1: 'Poppins', sans-serif;
+
+}
+
+:root {
+  --cor1: #00B1EB;
+  --cor2: #12264B;
+  --cor3: #EDEDED;
+
+  --font1: 'Poppins', sans-serif;
 
 }
 
@@ -28,54 +38,89 @@ main {
 }
 
 form {
-  /* background-color: beige; */
+  background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 45%;
-  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
   align-items: center;
-  
+  padding: 10px 50px;
+
 
 
 }
 
-.alinhamento_campos_login{
-  background-color:chocolate;
+.alinhamento_campos_login {
+  /* background-color:chocolate; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 100%;
   width: 100%;
   /* margin: 40px; */
 }
-.alinhamento_campos_login input{ 
+
+.alinhamento_campos_login input {
   border-radius: 30px;
   border: none;
-  height: 40px;
-  width: 150%;
-} 
+  height: 50px;
+  width: 576px;
+  background-color: #EDEDED;
+  font-family: 'Poppins';
+}
 
-.alinhamento_campos_login label{
+.alinhamento_campos_login label {
   font-size: 16px;
   margin-bottom: 15px;
-  
+
 }
 
-.alinhamento_campos_Entrar{
-  border-radius: 40px;
+.alinhamento_campos_Entrar {
+  display: contents;
+  border-radius: 300px;
   border: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Poppins';
   align-items: center;
+  font-size: 34px;
+  /* margin-bottom: 337px; */
+  width: 303px;
+  height: 57px;
+}
+
+
+.alinhamento_campos_Entrar button {
+  align-items: center;
+  font-family: 'Poppins';
+  height: 56px;
+  width: 211px;
+  border-radius: 30px;
+  border: none;
+  background-color: #00B1EB;
+
 
 }
 
-.alinhamento_campos_Entrar button{
-  font-size: 34px;
-  margin-bottom: 20px;
+.botao_entrar {
+  display: flex;
+  background-color: #00B1EB;
+}
+
+
+.alinhamento_texto_opcao {
+  display: flex;
+
 }
 
 main img {
-  width: 70%;
+  width: 60%;
   height: 100%;
+}
+
+.link_nao_cadastro {
+  color: var(--cor2);
+  border-radius: 8px;
+}
+
+#lembre_me {
+  border-radius: 10px;
 }
