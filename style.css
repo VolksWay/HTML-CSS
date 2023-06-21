@@ -14,6 +14,85 @@
   --font1: 'Poppins', sans-serif;
 
 }
+/* Header */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-branco: #FFFFFF;
+  --cor-primaria: #12264B;
+  --cor-secundaria: #FFD100;
+  --cor-terciaria: #00B0FF;
+  --cor-quartenaria: #195F8C;
+  --cor-cinza-escuro: #252936;
+  --cor-preto: #000000;
+  --fonte-primaria: 'Poppins', sans-serif;
+  --fonte-tamanho: 18px;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.direction_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.direction_row {
+  flex-direction: row;
+}
+
+.justify_center {
+  display: flex;
+  justify-content: center;
+}
+
+.align_center {
+  display: flex;
+  align-items: center;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.space_evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.space_around {
+  justify-content: space-around;
+}
+
+
+/* Header */
+header {
+  background-color: var(--cor-primaria);
+  border-bottom: 3px solid var(--cor-secundaria);
+}
+
+header a {
+  font-family: var(--fonte-primaria);
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--cor-branco);
+}
+
+header nav {
+  width: 47vw;
+}
+
+.menu_barras {
+  display: none;
+}
 
 main {
   /* background-color: blue; */
@@ -21,10 +100,10 @@ main {
   width: 100%;
   display: flex;
   align-items: center;
-  /* background-image: url(./caminhao_login.png); */
-  /* background-repeat: no-repeat; */
-  /* background-position: right; */
-  /* background-size: cover; */
+  background-image: url("./img/caminhao_login.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 
 }
 
@@ -41,11 +120,12 @@ form {
   background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
+  height: 82%;
+  width: 600px;
   gap: 40px;
   align-items: center;
   padding: 10px 50px;
+  margin-left: 50px;
 
 
 
@@ -64,7 +144,7 @@ form {
   border-radius: 30px;
   border: none;
   height: 50px;
-  width: 576px;
+  width: 95%;
   background-color: #EDEDED;
   font-family: 'Poppins';
 }
@@ -123,4 +203,25 @@ main img {
 
 #lembre_me {
   border-radius: 10px;
+}
+
+@media screen and (min-width: 1496px) {
+  header img{
+    width: 44%;
+  }
+
+}
+
+@media screen and (min-width: 658px) {
+  header img{
+    width: 34%;
+  }
+
+}
+
+@media screen and (min-width: 632px){
+  header img{
+    width:13%;
+  }
+
 }
