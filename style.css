@@ -44,7 +44,7 @@ header a {
 main {
     display: flex;
     background: linear-gradient(50deg, #ffffff 70%, var(--camada_geometrica) 30%);
-    height: 797px;
+    height: 600px;
     flex-direction: column;
 
 }
@@ -56,7 +56,7 @@ main {
     width: 100px;
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 26px;
 }
 
@@ -102,13 +102,14 @@ main {
     color: #12264B;
     width: 300px;
     margin-left: 65px;
-    margin-top: 41px;
+    
 }
 
 .seDestaca {
     /*  background-color: cornflowerblue; */
     margin-left: 65px;
     margin-top: 10px;
+    width: 600px;
 }
 
 .se_destaca {
@@ -143,12 +144,12 @@ main {
 .motorista {
     display: flex;
     align-items: center;
-    width: 192px;
-    height: 219px;
+    width: 148px;
+    height: 160px;
     border-radius: 30px;
     background-color: var(--blue_card);
     flex-direction: column;
-    padding: 25px;
+    padding: 7px;
 }
 
 .img_motorista {
@@ -170,16 +171,16 @@ main {
 .adm_de_frota {
     display: flex;
     align-items: center;
-    width: 192px;
-    height: 219px;
+    width: 148px;
+    height: 160px;
     border-radius: 30px;
     background-color: var(--blue_card);
     flex-direction: column;
-    padding: 25px;
+    padding: 7px;
 }
 
 .img_adm_de_frota {
-    height: 130px;
+    height: 104px;
     width: 130px;
 }
 
@@ -189,18 +190,19 @@ main {
     color: var(--dark_blue);
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
 }
 
 /*===============================proprietario*/
 .proprietario {
     display: flex;
     align-items: center;
-    width: 192px;
-    height: 219px;
+    width: 148px;
+    height: 160px;
     border-radius: 30px;
     background-color: var(--blue_card);
     flex-direction: column;
-    padding: 25px;
+    padding: 7px;
 }
 
 .img_proprietario {
@@ -214,6 +216,7 @@ main {
     color: var(--dark_blue);
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
 }
 
 /**/
@@ -255,22 +258,24 @@ section {
     background: #FFD100;
     border-radius: 30px;
     margin-left: 65px;
+    margin-top: -20px;
 }
 
 .btnProximo {
     background: #FFD100;
     border-radius: 30px;
+    text-decoration: none;
 }
 
 .imgIlustracao {
     /* background-color:cadetblue; */
-    margin-right: 200px;
+    margin-right: 121px;
 }
 
 .ilustracao {
     height: 470px;
     width: 405px;
-    margin-left: 10px;
+    margin-left: 194px;
     display: flex;
     align-items: center;
 }
