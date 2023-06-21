@@ -69,21 +69,74 @@ h1 {
 /*______________________SEÇAO BANNER______________*/
 
 .produtos_banner {
-    background-image: url(./img/banner_produto.png);
-    height: calc(100vh - 150px);
+   /* background-image: url(./img/banner_produto.png);*/
+    
     background-size: cover;
     display: flex;
     position: relative;
 
 }
 
-.produtos_banner::after {
+.slider-wrapper{
+    position: relative; 
+    margin: 0 auto;
+    display: flex;
+    
+
+}
+
+.slider{
+    display: flex; /* alinhnado as imagens na horizontal*/
+   /* aspect-ratio: 16/9; /* proporçao das imagens */
+    overflow-x: auto; /**/
+    /* height: calc(100vh - 150px); */
+    scroll-snap-type: x mandatory; /*comportamento do scroll para a horizontal*/
+    scroll-behavior: smooth;
+    box-shadow:  0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.slider img{
+    flex: 1 0 100%; /*a imagem ocupara qualquer espaço restante dentro do container*/
+    scroll-snap-align: start; /*mostra a primeira imagem*/
+    height: calc(100vh - 150px);
+    
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem; /*espaço entre eles*/
+    position: absolute;
+    bottom: 1.25rem; /*espaço abaixo*/
+    left: 50%;
+    transform: translateX(-50%); /*muda a rotaçao de um elemento*/
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 18px;
+    height: 18.81px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+    background-color: var(--light_blue);
+}
+
+
+
+
+/* .produtos_banner::after {
     content: "";
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(2px);
     z-index: 0;
-}
+} */
 
 
 .produtos_banner_conteudo {
@@ -92,16 +145,13 @@ h1 {
     /* background-color: beige; */
     display: flex;
     flex-direction: column;
-    margin: 92px 0 0 100px;
-    position: absolute;
+    margin: -425px 0 0 100px;
+    /* position: absolute; */
 
 
     width: 700px;
     height: 200px;
-    z-index: 2;
-
-
-
+    z-index: 1;
 
 }
 
@@ -134,7 +184,7 @@ h1 {
     font-weight: bolder;
 }
 
-.produtos_circulos {
+/* .produtos_circulos {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -160,7 +210,7 @@ h1 {
 
 .produtos_ativo {
     background-color: var(--light_blue);
-}
+} */
 
 
 
