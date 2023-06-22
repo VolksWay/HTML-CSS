@@ -81,8 +81,8 @@ h1 {
     position: relative; 
     margin: 0 auto;
     display: flex;
-    
-
+    height: calc(100vh - 150px);
+   
 }
 
 .slider{
@@ -93,13 +93,13 @@ h1 {
     scroll-snap-type: x mandatory; /*comportamento do scroll para a horizontal*/
     scroll-behavior: smooth;
     box-shadow:  0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    overflow: scroll;
 }
 
 .slider img{
     flex: 1 0 100%; /*a imagem ocupara qualquer espaço restante dentro do container*/
     scroll-snap-align: start; /*mostra a primeira imagem*/
     height: calc(100vh - 150px);
-    
 }
 
 .slider-nav{
@@ -216,10 +216,14 @@ h1 {
 
 /*______________________SEÇAO OFERTAS ESPECIAIS______________*/
 
+.produtos_ofertas_especiais a{
+    background-color: #00B1EB;
+    transition: opacity ease 99999ms;
+}
+
 .produtos_setaOfertas {
     height: 40px;
     margin-top: 140px;
-
 
 }
 
@@ -260,12 +264,33 @@ h1 {
     justify-content: center;
     gap: 50px;
     /* align-items: center; */
+    
 
 }
 
+.carrossel{
+    max-width: 1440px;
+    width: 100%;
+    /* padding: 10px 40px; */
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    height: 424px;
+   
+
+}
+
+
+
+
+
 .prod_card_ofertas1,
 .prod_card_ofertas2,
-.prod_card_ofertas3 {
+.prod_card_ofertas3,
+.prod_card_ofertas4, 
+.prod_card_ofertas5{
     background-color: #195F8C;
     width: 350px;
     height: 150px;
@@ -274,11 +299,18 @@ h1 {
     flex-direction: column;
     align-items: left;
     border-radius: 5px;
+
+
+    flex: 1 0 auto;
+    margin: 0 50px;
+
 }
 
 .prod_card_ofertas1 h3,
 .prod_card_ofertas2 h3,
-.prod_card_ofertas3 h3 {
+.prod_card_ofertas3 h3,
+.prod_card_ofertas4 h3,
+.prod_card_ofertas5 h3{
     font-size: 16px;
     text-transform: capitalize;
     margin-top: 10px;
@@ -288,7 +320,9 @@ h1 {
 
 .prod_card_ofertas1 h4,
 .prod_card_ofertas2 h4,
-.prod_card_ofertas3 h4 {
+.prod_card_ofertas3 h4,
+.prod_card_ofertas4 h4,
+.prod_card_ofertas5 h4 {
     font-size: 12px;
     text-transform: capitalize;
     margin-left: 10px;
@@ -298,7 +332,9 @@ h1 {
 
 .prod_card_ofertas1 img,
 .prod_card_ofertas2 img,
-.prod_card_ofertas3 img {
+.prod_card_ofertas3 img,
+.prod_card_ofertas4 img,
+.prod_card_ofertas5 img {
     width: 250px;
     /* position: absolute; */
     margin-top: 30px;
@@ -308,7 +344,9 @@ h1 {
 
 .prod_card_ofertas1 span,
 .prod_card_ofertas2 span,
-.prod_card_ofertas3 span {
+.prod_card_ofertas3 span,
+.prod_card_ofertas4 span,
+.prod_card_ofertas5 span {
     font-size: 16px;
     color: var(--dark_blue);
     font-weight: 900;
@@ -319,7 +357,9 @@ h1 {
 
 .card_ofertas1 h5,
 .card_ofertas2 h5,
-.prod_card_ofertas3 h5 {
+.prod_card_ofertas3 h5,
+.prod_card_ofertas4 h5,
+.prod_card_ofertas5 h5 {
     font-size: 12px;
     color: #000000;
     margin: 2px auto;
@@ -328,7 +368,9 @@ h1 {
 
 .prod_card_ofertas1 .prod_btn_card,
 .prod_card_ofertas2 .prod_btn_card,
-.prod_card_ofertas3 .prod_btn_card {
+.prod_card_ofertas3 .prod_btn_card,
+.prod_card_ofertas4 .prod_btn_card, 
+.prod_card_ofertas5 .prod_btn_card{
     background-color: var(--light_blue);
 
     filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
@@ -348,7 +390,9 @@ h1 {
 
 .prod_card_ofertas1 h6,
 .prod_card_ofertas2 h6,
-.prod_card_ofertas3 h6 {
+.prod_card_ofertas3 h6,
+.prod_card_ofertas4 h6,
+.prod_card_ofertas5 h6 {
     color: rgba(0, 0, 0, 0.50);
     font-size: 12px;
     text-transform: capitalize;
