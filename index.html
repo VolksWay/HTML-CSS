@@ -39,7 +39,7 @@
                         <button>novo</button>
 
                     </div>
-                </div>
+                </div>              
                 <table>
                     <tr class="cad_ofertas_NomeCampos">
                         <td></td>
@@ -52,7 +52,8 @@
                         <td>Canal</td>
                         <td>Visível</td>
                     </tr>
-                    <tr class="cad_ofertas_campos">
+
+                    <tr class="cad_ofertas_campos linha">
                         <td><input type="checkbox"></td>
                         <td><a href="#"><img src="./img/Pencil Drawing.svg" alt=""></a></td>
                         <td>001</td>
@@ -174,7 +175,47 @@
                         <td><img src="./img/invisivel.svg" alt=""></td>
                     </tr>
                 </table>
-            </div>           
+                <section class="cad_ofertas_input">
+                    <div class="cad_ofertas_bluer">
+                        <div class="cad_ofertas_inp">
+                            <div class="cad_ofertas_inpcad">
+                                <form action="">
+                                    <label for="">Código</label>
+                                    <input type="number" >
+                                    <label for="">Nome da Propaganda</label>
+                                    <input type="text"></br>
+                                    <label for="">Tipo de propaganda</label>
+                                    <input type="text">
+                                    <label for="">Posição do Banner</label>
+                                    <select name="plataforma" required="required">                                        
+                                        <option value="BannerMenu">Banner Menu</option>
+                                        <option value="BannerHome">Banner  Home</option>
+                                        <option value="Categorias">Categorias</option>
+                                        <option value="Acessorios">Acessorios</option>
+                                        <option value="Ofertas">Ofertas</option>
+                                        <option value="Acessorios">Acessorios</option>
+                                    </select>
+                                    <label for="">Usuario</label>
+                                    <select name="usuarios" required="required">
+                                        <option value="motorista">motorista</option>
+                                        <option value="admFrota">Adm Frota</option>
+                                        <option value="propietario">propietario</option>
+                                        <option value="todos">todos</option>
+                                    </select>
+                                    <label for="">Canal</label>
+                                    <select name="canal" required="required">
+                                        <option value="canais">Todos os canais</option>
+                                        <option value="Site">Site</option>
+                                        <option value="Mobile">Mobile</option>
+                                    </select>
+                                    <button class="btns">salvar</button>
+                                    <button class="btns">fechar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>  
+            </div>
         </section>
         <section class="cad_ofertas_AtuPaginas">
             
@@ -195,6 +236,7 @@
                 <p>Página 1 de 10</p>
             </div>
         </section>
+       
     </main>
     <footer>
         <div class="container direction_row space_between align_center alinhamento_footer">
