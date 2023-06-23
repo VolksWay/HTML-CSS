@@ -11,9 +11,9 @@ function btnMenu() {
         menu_barras.ariaExpanded = "true";
     } else {
         //Esconde o menu
-        menu.style.display = "none";
+        menu.style.display ="none";
         /* menu_barras.setAttribute("aria-label", "Abrir um menu");
-        menu_barras.setAttribute("aria-expanded", "false"); */
+        menu_barras.setAttribute("aria-expanded","false"); */
         menu_barras.ariaLabel = "Abrir um menu";
         menu_barras.ariaExpanded = "false";
     }
