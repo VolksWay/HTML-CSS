@@ -150,6 +150,7 @@ main {
     align-items: center;
     margin-top: 20px;
     margin-left: 26px;
+    margin-bottom: 10px;
 }
 
 .seta_voltar {
@@ -158,13 +159,12 @@ main {
     color: var(--dark_blue);
 }
 
-.voltar {
+.spanVoltar {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-
     color: var(--dark_blue);
 
 }
@@ -176,14 +176,13 @@ main {
 
 .inputs {
     width: 684px;
-    
     justify-content: space-between;
     align-items: center;
     margin-left: 65px;
     margin-bottom: 15px;
 }
 
-.seuCadastro {
+.seu_cadastro {
     display: flex;
     /*  background-color: #ddb16f; */
     font-family: 'Poppins';
@@ -192,7 +191,7 @@ main {
     font-size: 40px;
     line-height: 30px;
     color: #12264B;
-  /*   width: 300px; */
+    width: 689px;
     margin-left: 65px;
     
 }
@@ -275,7 +274,7 @@ main {
 
 .box_footer{
     background-color: var(--cor-primaria);
-    width: 100vw;
+    width: 100%;
     height: 20px;
 }
 
@@ -298,9 +297,9 @@ section {
 }
 
 .btnProximo {
-    background: #FFD100;
     border-radius: 30px;
     text-decoration: none;
+    text-transform: capitalize;
 }
 
 .imgIlustracao {
@@ -329,6 +328,14 @@ section {
 @media screen and (max-width: 1300px) {
     header a {
         font-size: 18px;
+    }
+    .imgIlustracao{
+        display: none;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .imgIlustracao{
+        display: none;
     }
 }
 
@@ -462,4 +469,14 @@ section {
         justify-content: space-between;
         display: flex;
     }
+}
+@media screen and (max-width: 750px) {
+    .seu_cadastro {
+    width: 669px;
+    }
+    .texto_privacidade {
+    display: none;
+    }
+
+   
 }
