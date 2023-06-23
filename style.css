@@ -93,7 +93,7 @@ h1 {
     scroll-snap-type: x mandatory; /*comportamento do scroll para a horizontal*/
     scroll-behavior: smooth;
     box-shadow:  0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .slider img{
@@ -217,13 +217,15 @@ h1 {
 /*______________________SEÇAO OFERTAS ESPECIAIS______________*/
 
 .produtos_ofertas_especiais a{
-    background-color: #00B1EB;
-    transition: opacity ease 99999ms;
+    transition: opacity ease 500ms;
+    margin: 140px 5px;
 }
 
 .produtos_setaOfertas {
     height: 40px;
-    margin-top: 140px;
+    /* margin-top: 140px; */
+    margin: 20px;
+    
 
 }
 
@@ -262,8 +264,9 @@ h1 {
 .produtos_ofertas_especiais {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 10px;
     /* align-items: center; */
+    margin-bottom: -165px;
     
 
 }
@@ -275,10 +278,11 @@ h1 {
     
     display: flex;
     flex-wrap: nowrap;
-    overflow: scroll;
+    overflow: hidden;
     scroll-behavior: smooth;
     height: 424px;
-   
+    margin-bottom: -237px;
+    scroll-snap-align: start;
 
 }
 
@@ -302,7 +306,7 @@ h1 {
 
 
     flex: 1 0 auto;
-    margin: 0 50px;
+    margin: 0 10px;
 
 }
 
@@ -439,8 +443,8 @@ h1 {
 
 .prod_promocoes>div {
     background-color: var(--dark_blue);
-    height: 480px;
-    margin-top: -170px;
+    height: 530px;
+    margin-top: -190px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -451,7 +455,12 @@ h1 {
 .prod_card_promo2 img,
 .prod_card_promo3 img,
 .prod_card_promo4 img,
-.prod_card_promo5 img {
+.prod_card_promo5 img,
+.prod_card_promo6 img,
+.prod_card_promo7 img,
+.prod_card_promo8 img,
+.prod_card_promo9 img,
+.prod_card_promo10 img {
     width: 200px;
     border-radius: 20px 20px 0px 0px;
     position: relative;
@@ -474,7 +483,8 @@ h1 {
     margin-top: -25px;
 
     border-radius: 20px;
-    position: absolute;
+    position: relative;
+    z-index: 1;
 
 }
 
@@ -487,6 +497,7 @@ h1 {
     margin-bottom: 10px;
     padding: 3px 10px;
     color: var(--dark_blue);
+    z-index: 1;
 }
 
 .prod_card_azul h3 {
@@ -563,6 +574,17 @@ h1 {
 
 }
 
+/* .prod_card_noticias{
+    display: flex;
+    flex-direction: column;
+} */
+
+.prod_paragrafo{
+    width: 362px;
+    height: 213px;
+}
+
+
 .prod_card_noticias img {
     width: 400px;
     border-radius: 10px 10px 0px 0px;
@@ -571,7 +593,7 @@ h1 {
 
 .prod_card_branco {
     width: 400px;
-    height: 350px;
+    height: 300px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(2px);
@@ -684,7 +706,6 @@ footer .divfooter4 .face {
 footer .divfooter4 .in {
     width: 37px;
 }
-
 
 
 
@@ -937,6 +958,5 @@ footer .divfooter4 .in {
             }
 
         }
-
     }
 }
