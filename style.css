@@ -452,43 +452,55 @@ footer span {
     }
 }
 .cad_ofertas_bluer{
-    width: calc(100% - 99px);  
+    width: calc(100% - 99px);
     display: flex;
-    justify-content: end;
-    align-items:  center; 
+    align-items: center;
     position: absolute;
     background: radial-gradient(45.97% 45.97% at 49.12% 54.03%, rgba(21, 14, 14, 0) 0%, rgba(21, 14, 14, 0.6) 68.23%);
     backdrop-filter: blur(10px);
-    height: 78%; 
+    height: calc(100% - 113px);
     top: 113px;
     justify-content: center;
 }
-.cad_ofertas_inpcad {
+.cad_ofertas_input {
     background-color: var(--branco);
-    width: 820px;
-    height: 420px;
+    width: 80%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    
 }
-.cad_ofertas_inpcad > form {  
+form{
     width: 80%;
+    display:grid;
+    grid-template-columns: 60% 40% ;
+    grid-row-gap:23px;
+    align-items:stretch;
+     
+}
+.cad_ofertas_inpcad {
+    width: 90%;
 }
 
-.cad_ofertas_inpcad > form button{
+.cad_ofertas_inpcad  input{
+    height: 25px;
+}
+
+.cad_ofertas_inpcad span{
+    font-size: 26px;
+    font-weight: bold;
+    gap: 20px  ;
+    text-align: center;
+}
+
+.cad_ofertas_inpcad .btns{
 border-radius: 30px;
 background: #00B1EB;
 width: 99px;
 height: 44px;
 color: #FFF;
 font-size: 20px;
-font-family: Poppins;
 font-weight: 700;
 border: none;
 }
 
-.btns{
-
-}
