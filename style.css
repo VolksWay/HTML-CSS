@@ -92,9 +92,18 @@ h1 {
     /* height: calc(100vh - 150px); */
     scroll-snap-type: x mandatory; /*comportamento do scroll para a horizontal*/
     scroll-behavior: smooth;
-    box-shadow:  0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    overflow: hidden;
+    overflow: scroll;
+    overflow-y: hidden;
 }
+
+.slider::-webkit-scrollbar {
+    width: 0.1em;
+    background-color: transparent;
+  }
+
+.slider::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
 
 .slider img{
     flex: 1 0 100%; /*a imagem ocupara qualquer espaço restante dentro do container*/
@@ -278,13 +287,23 @@ h1 {
     
     display: flex;
     flex-wrap: nowrap;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     height: 424px;
     margin-bottom: -237px;
     scroll-snap-align: start;
 
 }
+
+.carrossel::-webkit-scrollbar {
+    width: 0.1em;
+    background-color: transparent;
+  }
+
+.carrossel::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
 
 
 
@@ -714,18 +733,18 @@ footer .divfooter4 .in {
 
 @media screen and (max-width: 1200px) {
 
-    header nav {
+    /* header nav {
         margin-right: 100px;
-    }
+    } */
 
     .prod_noticias_recentes {
         display: none;
     }
 
-    .prod_card_promo1 img,
+    /* .prod_card_promo1 img,
     .prod_card_promo2 img {
         display: none;
-    }
+    } */
 
     .produtos_setaOfertas {
         margin: 140px 25px;
@@ -738,10 +757,29 @@ footer .divfooter4 .in {
 
     .prod_card_branco {
         width: 300px;
+        padding: none;
     }
 
     .prod_card_branco .prod_btn_noticias {
         padding: 10px 90px;
+    }
+
+    .prod_paragrafo{
+        width: 290px;
+        height: 213px;
+       
+    }
+
+    .prod_card_branco p{
+        font-size: 11px;
+    }
+
+    .prod_promocoes h2{
+        margin-top: 90px;
+    }
+
+    .prod_noticias_h2{
+        margin-bottom: 0;
     }
 
 
@@ -750,7 +788,59 @@ footer .divfooter4 .in {
 
     @media screen and (max-width: 768px) {
 
-        .posicionamento_header img {
+        .slider-wrapper{
+            height: calc(100vh - 265px);
+            
+        }
+
+        .slider{
+            overflow: scroll;
+            overflow-y: hidden;
+        }
+
+        .slider img{
+           
+            height: calc(100vh - 265px);
+        }
+
+        .produtos_banner_conteudo{
+            margin: -250px 0 0 100px;
+        }
+
+
+        .produtos_banner_conteudo h2 {
+            font-size: 25px;
+        }
+
+        .produtos_banner_conteudo p{
+            font-size: 12px;
+        }
+
+        .produtos_banner_conteudo {
+            margin: -250px 0 0 50px;
+        }
+        .produtos_banner_conteudo .produtos_btn_banner{
+            width: 120px;
+            font-size: 14px;
+        }
+
+        .carrossel{
+            overflow: scroll;
+            overflow-y: hidden;
+        }
+
+        .prod_noticias_recentes2{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+
+        /* .produtos_setaOfertas{
+            display: none;
+        } */
+        
+
+         /* .posicionamento_header img {
             margin: 3px;
         }
 
@@ -785,13 +875,14 @@ footer .divfooter4 .in {
             backdrop-filter: blur(10px);
             border-radius: 20px 0px 20px 20px;
             border: 2px solid var(--light_blue);
-        }
+        } 
 
 
-        .produtos_banner {
+      .produtos_banner {
 
-            background-repeat: no-repeat;
-            height: calc(100vh - 300px);
+            /* background-repeat: no-repeat;
+            height: calc(100vh - 300px); */
+            /* display: none;
         }
 
         .produtos_banner_conteudo h2 {
@@ -863,33 +954,61 @@ footer .divfooter4 .in {
             order: 1;
             margin: 0;
 
-        }
+        }  */
 
         /* _____________________SIZE 600px______________________*/
 
-
+ 
         @media screen and (max-width: 600px) {
 
-            .prod_card_promo4 {
-                display: none;
-            }
-
-            .prod_noticias_h2 {
-                margin-left: 170px;
-            }
-
+              .slider-wrapper{
+            height: calc(100vh - 450px);
+            
         }
+
+        .slider img{
+           
+            height: calc(100vh - 450px);
+        }
+    
+      /*      .slider img{
+               
+                height: calc(100vh - 440px);
+            }
+    
+            .produtos_banner_conteudo{
+                margin: -215px 0 0 100px;
+            }
+    
+    
+            .produtos_banner_conteudo h2 {
+                font-size: 30px;
+            }
+    
+            .produtos_banner_conteudo p{
+                font-size: 14px;
+            }
+    
+            .produtos_banner_conteudo {
+                margin: -215px 0 0 50px;
+            }
+            .produtos_banner_conteudo .produtos_btn_banner{
+                width: 120px;
+                font-size: 14px;
+            }
+
+        } */
 
         /* _____________________SIZE 320px______________________*/
 
 
         @media screen and (max-width: 320px) {
 
-            .posicionamento_header nav {
+            /* .posicionamento_header nav {
                 right: 0;
                 width: 200px;
                 gap: 25px;
-            }
+            } */
 
             .prod_card_promo3,
             .prod_card_promo4 {
