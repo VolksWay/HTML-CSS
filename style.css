@@ -161,6 +161,7 @@
 
 .home_banner_opcoes {
     width: 10vw;
+    margin-bottom: 3%;
 }
 
 
@@ -371,6 +372,7 @@
 /* NOSSO OBJETIVO */
 .secao_nosso_objetivo {
     background-color: var(--cor-primaria);
+    height: 72vh;
 }
 
 .secao_nosso_objetivo h2 {
@@ -387,9 +389,10 @@
     font-weight: 700;
 }
 
-.secao_nosso_objetivo>div>div {
+.nosso_objetivo_conteudo {
     width: 798px;
     height: 321px;
+    background-color: var(--cor-secundaria);
 }
 
 
@@ -399,18 +402,45 @@
 
 
 
+
+
 /* FAZ A DIFERENCA */
-.faz_diferenca_cards {}
-
-.faz_diferenca_cards:nth-child(1) {}
-
-.faz_diferenca_cards:nth-child(2) {}
+.azul {
+    color: var(--cor-terciaria);
+}
 
 .faz_diferenca_card {
-    width: 509.082px;
-    height: 175px;
+    width: 25.5vw;
+    height: 22vh;
     border-radius: 30px;
-    background-color: var(--cor-primaria);
+    padding: 30px;
+    background-color: var(--cor-quartenaria);
+}
+
+.faz_diferenca_card span {
+    color: var(--cor-branco);
+    font-size: 14px;
+    font-family: var(--fonte-primaria);
+}
+
+.secao_faz_diferenca {
+    height: 96vh;
+}
+
+.secao_faz_diferenca h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.secao_faz_diferenca:nth-child(1) {
+    color: var(--cor-preto);
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+}
+
+.faz_diferenca_cards {
+    height: 52%;
+    width: 100%;
 }
 
 .faz_diferenca_card p {
@@ -421,8 +451,50 @@
     line-height: 30px;
 }
 
-.faz_diferenca_card span {
-    color: var(--cor-branco);
-    font-size: 14px;
+.faz_diferenca_card_conteudo {
+    width: 16vw;
+}
+
+.home_selecao_card {
+    width: 24.5vw;
+    height: 45vh;
+}
+
+.home_selecao_card h2 {
+    color: var(--cor-primaria);
+    font-size: 40px;
     font-family: var(--fonte-primaria);
+    font-weight: 700;
+}
+
+.home_selecao_nao_encontrou,
+.home_selecao_card>div p {
+    color: var(--cor-primaria);
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.home_selecao_card a {
+    border-radius: 30px;
+    background: var(--cor-secundaria);
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 458px;
+    height: 57px;
+    padding: 16px 160px;
+    color: var(--cor-primaria);
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+}
+
+.home_selecao_card>div {
+    height: 80%;
+}
+
+.margin_bottom5 {
+    margin-bottom: 5%;
 }
