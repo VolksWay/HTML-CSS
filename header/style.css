@@ -92,6 +92,142 @@ header nav {
     backdrop-filter: blur(25px);
 }
 
+/*main*/
+
+.btn_cadastrar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 303px;
+    height: 57px;
+    background: #FFD100;
+    border-radius: 30px;
+    margin-left: 65px;
+    margin-top: -20px;
+}
+
+.btnCadastrar {
+
+    border-radius: 30px;
+    text-decoration: none;
+    color: #12264B;
+    font-weight: 700;
+}
+
+main {
+    /* background-color: blue; */
+    height: 78vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("./img/caminhao_login.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+#login {
+    /* background-color: brown; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+form {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 82%;
+    width: 600px;
+    gap: 40px;
+    align-items: center;
+    padding: 10px 50px;
+    margin-left: 50px;
+
+
+
+
+}
+
+.alinhamento_campos_login {
+    /* background-color:chocolate; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    /* margin: 40px; */
+}
+
+.alinhamento_campos_login input {
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 95%;
+    background-color: #EDEDED;
+    font-family: 'Poppins';
+}
+
+.alinhamento_campos_login label {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #252936;
+
+}
+
+.alinhamento_campos_Entrar {
+    display: contents;
+    border-radius: 300px;
+    border: none;
+    font-family: 'Poppins';
+    align-items: center;
+    font-size: 34px;
+    /* margin-bottom: 337px; */
+    width: 303px;
+    height: 57px;
+}
+
+
+.alinhamento_campos_Entrar button {
+    align-items: center;
+    font-family: 'Poppins';
+    height: 56px;
+    width: 211px;
+    border-radius: 30px;
+    border: none;
+    background-color: #00B1EB;
+
+
+}
+
+.botao_entrar {
+    display: flex;
+    background-color: #00B1EB;
+}
+
+
+.alinhamento_texto_opcao {
+    display: flex;
+
+}
+
+main img {
+    width: 60%;
+    height: 100%;
+}
+
+.link_nao_cadastro {
+    color: var(--cor2);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#lembre_me {
+    border-radius: 10px;
+}
+
 /* Footer */
 footer {
     background-color: var(--cor-primaria);
@@ -151,11 +287,20 @@ footer span {
     header a {
         font-size: 18px;
     }
+
+    main {
+        background-image: none;
+    }
+
 }
 
 @media screen and (max-width: 1100px) {
     header a {
         font-size: 18px;
+    }
+
+    .btn_cadastrar {
+        display: none;
     }
 
     header nav {
@@ -267,7 +412,7 @@ footer span {
         justify-content: initial;
         padding: 0% 5% 0% 5%;
     }
-    
+
     .navegacao_header {
         margin-bottom: 3%;
         margin-top: 1%;

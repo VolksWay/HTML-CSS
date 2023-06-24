@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   --font1: 'Poppins', sans-serif;
+  color: #12264B;
+font-size: 21px;
+font-family: Poppins;
+text-decoration-line: underline;
 
 }
 
@@ -113,14 +117,14 @@ header nav {
 .btnCadastrar {
   
   border-radius: 30px;
-  text-decoration: none;
+  text-decoration:none;
   color: #12264B;
   font-weight: 700;
 }
 
 main {
   /* background-color: blue; */
-  height: 100vh;
+  height: 78vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -225,6 +229,7 @@ main img {
 .link_nao_cadastro {
   color: var(--cor2);
   border-radius: 8px;
+  text-decoration: none;
 }
 
 #lembre_me {
