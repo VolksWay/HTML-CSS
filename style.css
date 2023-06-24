@@ -469,38 +469,57 @@ footer span {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
-form{
-    width: 80%;
-    display:grid;
-    grid-template-columns: 60% 40% ;
-    grid-row-gap:23px;
-    align-items:stretch;
-     
-}
-.cad_ofertas_inpcad {
-    width: 90%;
+form {
+    display: grid;
+    grid-template-columns: 25% 20% 25% 20%;
+    grid-row-gap: 23px;
+    align-items: stretch;
+    grid-column-gap: 28px;
+    justify-content: center;
+    padding: 0 60px;
+
 }
 
 .cad_ofertas_inpcad  input{
     height: 25px;
+    border-radius: 30px;
+
+}
+.cad_ofertas_inpcad  select{
+    height: 25px;
+    border-radius: 30px;
+
 }
 
 .cad_ofertas_inpcad span{
     font-size: 26px;
     font-weight: bold;
-    gap: 20px  ;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 55px 0;
+}
+.cad_ofertas_input .btns{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0 0 0;
+}
+.btns button{
+    border-radius: 30px;
+    width: 99px;
+    height: 44px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin: 10px;
 }
 
-.cad_ofertas_inpcad .btns{
-border-radius: 30px;
-background: #00B1EB;
-width: 99px;
-height: 44px;
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-border: none;
+.btns :nth-child(1){
+    background: #DF0B0B;;
+}
+.btns :nth-child(2){
+    background: #00B1EB;
 }
 
