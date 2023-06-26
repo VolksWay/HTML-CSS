@@ -305,9 +305,9 @@ section {
         font-size: 18px;
     }
 
-    .imgIlustracao {
+   /*  .imgIlustracao {
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 1360px) {
@@ -325,13 +325,13 @@ section {
         width: 70vw;
     }
 
-    .imgs_social_medias {
+    /* .imgs_social_medias {
         width: 20%;
     }
 
     .imgs_social_medias img {
         width: 28%;
-    }
+    } */
 }
 
 @media screen and (max-width: 900px) {
@@ -475,6 +475,7 @@ section {
     }
     .conteudo{
         width: 320px;
+        height: 475px;
     }
     .seDestaca {
         width: 320px;
@@ -490,7 +491,7 @@ section {
     .inputs{
         width: 320px;
     }
-}    
+}
 @media screen and (max-width: 400px){
     .seu_cadastro{
         width: 250px;
