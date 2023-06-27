@@ -736,7 +736,7 @@ footer .divfooter4 .in {
     /* header nav {
         margin-right: 100px;
     } */
-
+}
     .prod_noticias_recentes {
         display: none;
     }
@@ -800,7 +800,11 @@ footer .divfooter4 .in {
 
         .slider img{
            
-            height: calc(100vh - 265px);
+            height: calc(90vh - 300px);
+        }
+
+        .slider-nav{
+            margin-bottom: 95px;
         }
 
         .produtos_banner_conteudo{
@@ -810,6 +814,7 @@ footer .divfooter4 .in {
 
         .produtos_banner_conteudo h2 {
             font-size: 25px;
+            
         }
 
         .produtos_banner_conteudo p{
@@ -820,8 +825,14 @@ footer .divfooter4 .in {
             margin: -250px 0 0 50px;
         }
         .produtos_banner_conteudo .produtos_btn_banner{
-            width: 120px;
-            font-size: 14px;
+            width: 162px;
+            height: 40px;
+            font-size: 12px;
+        }
+
+        .produtos_ofertas_h2 {
+            margin-top: -40px;
+
         }
 
         .carrossel{
@@ -970,6 +981,35 @@ footer .divfooter4 .in {
            
             height: calc(100vh - 450px);
         }
+
+        .produtos_banner_conteudo {
+            margin: -210px 0 0 50px;
+        }
+
+        .produtos_banner_conteudo h2 {
+            font-size: 20px;
+        }
+
+        .produtos_banner_conteudo p {
+            width: 375px;
+            margin-top: 15px;
+              
+        }
+        
+
+        .produtos_banner_conteudo .produtos_btn_banner {
+            width: 110px;
+            height: 35px;
+            font-size: 12px;
+        }
+
+        .slider-nav {
+            margin-bottom: 0;
+        }
+
+        .produtos_ofertas_h2 {
+            margin-top: 0;
+        }
     
       /*      .slider img{
                
@@ -1015,30 +1055,75 @@ footer .divfooter4 .in {
                 display: none;
             }
 
-            .banner {
-                background-image: none;
+            .slider img {
+                display: none;
             }
 
             .produtos_banner_conteudo {
-                margin: 15px;
+                margin: -24px 0 0 0px;
+                flex-direction: column;
+                align-items: center;
+                
+                background-color: var(--dark_blue);
+                width: 320px;
             }
+
+            /* .slider-wrapper{
+                background-color: #FFD100;
+                
+            }
+     */
 
             .produtos_banner_conteudo h2,
             .produtos_banner_conteudo p {
-                color: var(--dark_blue);
-                text-align: center;
+                color: white;
+               
                 text-shadow: none;
-                margin-top: 20px;
+                 margin-top: 40px;
+                /*  margin-left: 10px; */
             }
 
             .produtos_banner_conteudo h2 {
-                font-size: 25px;
+                font-size: 16px;
+              
             }
 
             .produtos_banner_conteudo p {
-                font-size: 16px;
+                font-size: 12px;
+                width: 240px;
+                text-align: center;
+                margin-top: 5px;
             }
 
+            .produtos_banner_conteudo .produtos_btn_banner {
+                 margin-left: 0;
+            }
+
+            .slider-nav,.prod_setaPromos  {
+                display: none;
+            }
+
+            .produtos_ofertas_h2{
+                font-size: 20px;
+            }
+
+            .produtos_ofertas_especiais a {
+                display: none;
+            }
+
+            .produtos_ofertas_especiais{
+                margin-bottom: 0;
+            }
+
+          
+            .prod_promocoes h2 {
+                 margin-top: 230px;
+                 font-size: 30px;
+            }
+
+
+
+/* 
             .produtos_banner_conteudo .produtos_btn_banner {
                 margin-left: 70px;
 
@@ -1052,7 +1137,7 @@ footer .divfooter4 .in {
 
             /* .card_ofertas3{
             margin-left: 10px;
-            } */
+            } 
 
             .prod_promocoes h2 {
                 font-size: 25px;
@@ -1073,8 +1158,8 @@ footer .divfooter4 .in {
             }
 
             .prod_card_branco {
-                margin-left: -15px;
-            }
+                margin-left: -15px; 
+            }*/
 
         }
     }
