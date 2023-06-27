@@ -272,7 +272,7 @@ section {
 
 .ilustracao {
     height: 500px;
-    width: 600px;
+    width: 520px;
     display: flex;
     align-items: center;
     margin-left: 60px;
@@ -298,11 +298,7 @@ section {
     }
 }
 
-@media screen and (max-width: 1360px) {
-    .imgIlustracao {
-        display: none;
-    }
-}
+
 
 @media screen and (max-width: 1100px) {
     header a {
