@@ -56,6 +56,12 @@
     justify-content: space-around;
 }
 
+.banner_home {
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/adm.png);
+}
+
 
 /* Header */
 header {
@@ -164,8 +170,84 @@ h1 {
     margin-left: 33px;
 }
 
+.adm_portal {
+    border: 2px solid var(--cor-primaria);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    
 
-  
+}
+
+.adm_portal1 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.Pi_adm {
+    width: 400px;
+    height: 200px;
+    margin: 25px;
+    background-color: #ededed;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+
+}
+
+.mensagem_Parceiro {
+    width: 250px;
+    height: 100px;
+    margin: 25px;
+    background-color: #ededed;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+
+}
+
+.Mensagens_Motorista {
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    background-color: #ededed;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+}
+
+.Mensagens_Adm_Frota {
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    background-color: #ededed;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+}
+
+.Forum {
+    width: 200px;
+    height: 100px;
+    margin: 75px;
+    background-color: #ededed;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+}
+
+.calendario {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: #ededed;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+
+
+}
+
+
 
 
 
