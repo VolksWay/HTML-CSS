@@ -139,8 +139,9 @@
     line-height: 30px;
     color: var(--cor-primaria);
     text-decoration: none;
-    width: 75%;
-    height: 10%;
+    width: 63%;
+    height: 14%;
+    margin-top: 5%;
     text-align: center;
     align-items: center;
     display: flex;
@@ -300,6 +301,7 @@
     font-size: 48px;
     font-family: var(--fonte-primaria);
     font-weight: 700;
+    text-align: center;
 }
 
 .por_que_cards {
@@ -341,6 +343,10 @@
     font-size: 16px;
     font-family: var(--fonte-primaria);
     font-weight: 500;
+}
+
+.circulos {
+    width: 3vw
 }
 
 .por_que_circulos {
@@ -390,19 +396,10 @@
 }
 
 .nosso_objetivo_conteudo {
-    width: 798px;
-    height: 321px;
+    height: 77%;
+    width: 51%;
     background-color: var(--cor-secundaria);
 }
-
-
-
-
-
-
-
-
-
 
 /* FAZ A DIFERENCA */
 .azul {
@@ -465,6 +462,7 @@
     font-size: 40px;
     font-family: var(--fonte-primaria);
     font-weight: 700;
+    width: 109%;
 }
 
 .home_selecao_nao_encontrou,
@@ -482,9 +480,8 @@
     border-radius: 30px;
     background: var(--cor-secundaria);
     box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.25);
-    width: 458px;
-    height: 57px;
-    padding: 16px 160px;
+    width: 90%;
+    height: 15%;
     color: var(--cor-primaria);
     font-size: 20px;
     font-family: var(--fonte-primaria);
@@ -497,4 +494,407 @@
 
 .margin_bottom5 {
     margin-bottom: 5%;
+}
+
+.img_selecao {
+    width: 62%;
+}
+
+
+@media screen and (max-width: 1750px) {
+    .home_texto_banner {
+        font-size: 33px;
+    }
+
+    .home_card_conteudo {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .home_card_saiba p {
+        height: 11vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .home_banner_opcoes {
+        width: 11vw;
+    }
+
+    .home_card_desconto>span {
+        font-size: 41px;
+    }
+
+    .home_quem_somos p {
+        width: 100%;
+    }
+
+    .home_selecao_card h2 {
+        font-size: 33px;
+    }
+
+    .home_card_saiba p {
+        height: 11vh;
+        width: 14vw;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .home_card_conteudo {
+        width: 43%;
+    }
+
+    .circulos {
+        width: 3.5vw;
+    }
+
+    .home_container_entrar span {
+        font-size: 43px;
+        line-height: 60px;
+    }
+
+    .home_card_desconto>div>span {
+        font-size: 22px;
+    }
+
+    .home_selecao_card h2 {
+        font-size: 29px;
+    }
+
+    .home_quem_somos>div>div {
+        height: 70%;
+    }
+
+    .home_banner_opcoes {
+        width: 12vw;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .home_card_conteudo {
+        width: 46%;
+    }
+
+    .home_quem_somos p {
+        font-size: 21px;
+    }
+
+    .home_info_banner {
+        width: 29%;
+    }
+
+    .home_texto_banner {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .home_card_desconto>div>span {
+        font-size: 20px;
+    }
+
+    .home_quem_somos p {
+        font-size: 20px;
+        line-height: 1.7em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .circulos {
+        width: 4.5vw;
+    }
+
+    .home_card_desconto>span {
+        font-size: 33px;
+    }
+
+    .home_texto_banner {
+        line-height: 46px;
+    }
+
+    .home_container_entrar span {
+        font-size: 37px;
+    }
+
+    .home_banner_opcoes {
+        width: 14vw;
+    }
+
+    .home_quem_somos>div>div {
+        height: 77%;
+    }
+
+    .home_selecao_card a {
+        width: 78%;
+        height: 13%;
+        font-size: 18px;
+    }
+
+    .home_selecao_nao_encontrou,
+    .home_selecao_card>div p {
+        font-size: 18px;
+    }
+
+    .home_banner {
+        height: 52vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home_selecao_card h2 {
+        font-size: 25px;
+    }
+
+    .home_selecao_card {
+        height: 36vh;
+    }
+
+    .home_selecao_card a {
+        height: 15%;
+    }
+
+    .home_card_desconto>div>span {
+        font-size: 18px;
+    }
+
+    .home_card_desconto>span {
+        font-size: 30px;
+    }
+
+    .home_card_desconto {
+        width: 17.5vw;
+    }
+
+    .home_texto_banner {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .home_quem_somos>div>div {
+        height: 65%;
+    }
+
+    .home_quem_somos img {
+        width: 50%;
+    }
+
+    .home_quem_somos {
+        height: 71vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .home_selecao_nao_encontrou {
+        display: none;
+    }
+
+    .home_quem_somos p {
+        font-size: 19px;
+    }
+
+    .home_img_banner {
+        width: 41%;
+    }
+
+    .home_container_entrar span {
+        width: 24vw;
+    }
+
+    .home_banner a {
+        height: 17%;
+    }
+
+    .ultimo {
+        display: none;
+    }
+
+    .home_card_saiba {
+        width: 31.7%;
+    }
+
+    .home_card_saiba p {
+        width: 18vw;
+    }
+
+    .home_banner_opcoes {
+        width: 15vw;
+    }
+
+    .home_card_desconto {
+        width: 22.5vw;
+    }
+
+    .home_card_desconto>div>span {
+        font-size: 19px;
+    }
+
+    .home_quem_somos {
+        height: 66vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home_container_entrar span {
+        font-size: 33px;
+        width: 24vw;
+    }
+
+    .home_banner a {
+        height: 20%;
+    }
+
+    .home_quem_somos>div>div {
+        height: 79%;
+    }
+
+    .home_banner_opcoes {
+        width: 19vw;
+    }
+
+    .circulos {
+        width: 5.5vw;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .por_que_cards_alinhamento {
+        display: flex;
+        justify-content: center;
+    }
+
+    .por_que_card_principal {
+        width: 46.8vw;
+    }
+
+    .width_100 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .none_card_saiba {
+        display: none;
+    }
+
+    .home_card_saiba {
+        width: 45.7%;
+    }
+
+    .home_card_saiba p {
+        height: 12vh;
+        width: 27vw;
+    }
+
+    .circulos {
+        width: 6.5vw;
+    }
+
+    .home_selecao_card h2 {
+        font-size: 20px;
+    }
+
+    .home_selecao_card a {
+        font-size: 16px;
+    }
+
+    .home_texto_banner {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .home_container_entrar span {
+        font-size: 33px;
+        width: 26vw;
+    }
+
+    .home_quem_somos>div>div {
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home_selecao_card {
+        height: 30vh;
+    }
+
+    .home_selecao_card>div p {
+        display: none;
+    }
+
+    .home_selecao_card {
+        height: 29vh;
+        justify-content: space-evenly;
+    }
+
+    .home_selecao_card>div {
+        height: 55%;
+    }
+
+    .home_quem_somos img {
+        display: none;
+    }
+
+    .home_quem_somos>div>div {
+        height: 55%;
+    }
+
+    .home_banner a {
+        height: 28%;
+    }
+
+    .home_container_entrar span {
+        font-size: 29px;
+        width: 25vw;
+    }
+
+    .home_banner a {
+        height: 28%;
+    }
+
+    .home_img_banner {
+        width: 45%;
+    }
+
+    .home_quem_somos p {
+        font-size: 20px;
+    }
+
+    .home_card_desconto>span {
+        font-size: 25px;
+    }
+
+    .home_card_conteudo {
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home_titulo_saiba {
+        font-size: 30px;
+    }
+
+    .home_container_entrar span {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .home_banner_opcoes {
+        width: 25vw;
+    }
+
+    .home_selecao_card a {
+        height: 18%;
+    }
+
+    .home_quem_somos {
+        height: 55vh;
+    }
+
+    .penultimo{
+        display: none;
+    }
 }
