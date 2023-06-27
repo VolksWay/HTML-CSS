@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--poppins300);
+    font-family: var(--poppins300)  ;
 }
 
 :root {
@@ -119,22 +119,6 @@ header {
     height: 121px;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-between;
-    width: 550px;
-    margin-left: 70px;
-}
-
-header a {
-
-    color: white;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-family: var(--font1);
-    font-size: 18px;
-}
-
 /*==================================voltar*/
 .div_voltar {
     height: 50px;
@@ -147,13 +131,14 @@ header a {
 }
 
 .seta_voltar {
+    font-family: var(--fonte-primaria);
     width: 45px;
     height: 45px;
     color: var(--dark_blue);
 }
 
 .spanVoltar {
-    font-family: 'Poppins';
+    font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -181,12 +166,12 @@ header a {
 .seu_cadastro {
     display: flex;
     /*  background-color: #ddb16f; */
-    font-family: 'Poppins';
+    font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 30px;
-    color: #12264B;
+    color: var(--dark_blue);
     width: 689px;
     margin-left: 65px;
 
@@ -200,25 +185,21 @@ header a {
 }
 
 .se_destaca {
-    font-family: 'Poppins';
+    font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
 
-    color: #12264B;
+    color: var(--dark_blue);
 }
 
 /*===============================nome*/
 
 .nome {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 15px;
-    color: #12264B;
     margin-top: 30px;
+    font-family: var(--fonte-primaria);
+    color: var(--dark_blue);
 }
 
 .nome_input {
@@ -228,6 +209,7 @@ header a {
     height: 30px;
     border: 0.5px;
 }
+
 
 .container_80 {
     width: 80%;
@@ -260,6 +242,7 @@ section {
 }
 
 .btn_proximo {
+    
     justify-content: center;
     align-items: center;
     display: flex;
@@ -272,6 +255,8 @@ section {
 }
 
 .btnProximo {
+    color: var(--dark_blue);
+    font-family: var(--fonte-primaria);
     border-radius: 30px;
     text-decoration: none;
     text-transform: capitalize;
@@ -281,6 +266,7 @@ section {
 .imgIlustracao {
     height: 500px;
     width: 500px;
+    
  /*    background-color: cadetblue; */
 }
 
@@ -473,7 +459,7 @@ section {
 }
 @media screen and (max-width: 730px) {
     .seu_cadastro {
-        width: 320px;
+        width: 323px;
     }
     .conteudo{
         width: 320px;
@@ -492,7 +478,7 @@ section {
     .inputs{
         width: 320px;
     }
-}    
+}
 @media screen and (max-width: 400px){
     .seu_cadastro{
         width: 250px;
