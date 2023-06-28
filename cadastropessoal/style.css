@@ -126,6 +126,17 @@ header nav {
     margin-left: 70px;
 }
 
+<<<<<<< HEAD
+=======
+header a {
+
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: var(--font1);
+    font-size: 18px;
+}
+>>>>>>> 72699ba5dc474c5e8d3992e51c4be179f6eea514
 
 /*==================================voltar*/
 .div_voltar {
@@ -298,9 +309,13 @@ section {
         font-size: 18px;
     }
 
+<<<<<<< HEAD
     .imgIlustracao {
+=======
+   /*  .imgIlustracao {
+>>>>>>> 72699ba5dc474c5e8d3992e51c4be179f6eea514
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 1360px) {
@@ -318,13 +333,13 @@ section {
         width: 70vw;
     }
 
-    .imgs_social_medias {
+    /* .imgs_social_medias {
         width: 20%;
     }
 
     .imgs_social_medias img {
         width: 28%;
-    }
+    } */
 }
 
 @media screen and (max-width: 900px) {
@@ -455,7 +470,11 @@ section {
     }
     .btn_proximo {
         width: 206px;
+<<<<<<< HEAD
        
+=======
+        height: 49px;
+>>>>>>> 72699ba5dc474c5e8d3992e51c4be179f6eea514
     }
 
     .texto_privacidade {
@@ -468,6 +487,10 @@ section {
     }
     .conteudo{
         width: 320px;
+<<<<<<< HEAD
+=======
+        height: 475px;
+>>>>>>> 72699ba5dc474c5e8d3992e51c4be179f6eea514
     }
     .seDestaca {
         width: 320px;
@@ -483,7 +506,11 @@ section {
     .inputs{
         width: 320px;
     }
+<<<<<<< HEAD
 }    
+=======
+}
+>>>>>>> 72699ba5dc474c5e8d3992e51c4be179f6eea514
 @media screen and (max-width: 400px){
     .seu_cadastro{
         width: 250px;
