@@ -156,7 +156,32 @@
     width: 30%;
 }
 
-.home_banner_content {
+.dot {
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.home_banner_alinhamento {
     margin-top: 4%;
 }
 
@@ -293,7 +318,7 @@
 
 /* POR QUE */
 .secao_por_que {
-    height: 120vh;
+    height: 110vh;
 }
 
 .por_que_titulo {
@@ -314,6 +339,43 @@
 
 .por_que_cards_alinhamento {
     width: 80vw;
+}
+
+.slide_cards {
+    transition: opacity ease 500ms;
+    margin: 140px 5px;
+}
+
+.carrossel {
+    max-width: 1920px;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    /* height: 424px; */
+    /* margin-bottom: -237px; */
+    scroll-snap-align: start;
+
+}
+
+.carrossel::-webkit-scrollbar {
+    width: 0.1em;
+    background-color: transparent;
+}
+
+.carrossel::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.por_que_slide1,
+.por_que_slide2,
+.por_que_slide3,
+.por_que_slide4,
+.por_que_slide5 {
+    flex: 1 0 auto;
+    margin: 0 10px;
 }
 
 .por_que_card {
@@ -356,12 +418,12 @@
     border-radius: 20px;
 }
 
-.active {
+.ativo_circulo {
     width: 25px;
     height: 25px;
 }
 
-.por_que_cards a {
+.btn_cadastrar {
     width: 458.25px;
     height: 70px;
     border-radius: 30px;
@@ -398,7 +460,8 @@
 .nosso_objetivo_conteudo {
     height: 77%;
     width: 51%;
-    background-color: var(--cor-secundaria);
+    /* background-color: var(--cor-secundaria); */
+    background-image: url("./img/background_nosso_objetivo.svg");
 }
 
 /* FAZ A DIFERENCA */
@@ -569,6 +632,10 @@
 
     .home_banner_opcoes {
         width: 12vw;
+    }
+
+    .home_card_saiba p {
+        height: 13vh;
     }
 }
 
@@ -817,6 +884,11 @@
 }
 
 @media screen and (max-width: 800px) {
+    .carrossel {
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
     .home_selecao_card {
         height: 30vh;
     }
@@ -883,7 +955,7 @@
     }
 
     .home_banner_opcoes {
-        width: 25vw;
+        width: 27vw;
     }
 
     .home_selecao_card a {
@@ -894,7 +966,47 @@
         height: 55vh;
     }
 
-    .penultimo{
+    .penultimo {
         display: none;
+    }
+
+    .home_card_desconto {
+        width: 33.5vw;
+    }
+
+    .home_card_desconto>div>span {
+        font-size: 22px;
+    }
+
+    .home_card_desconto>span {
+        font-size: 28px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .home_container_entrar span {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .home_card_desconto>div>span {
+        font-size: 20px;
+    }
+
+    .home_selecao_card a {
+        width: 100%;
+    }
+
+    .home_saiba_mais_alinhamento {
+        height: 69%;
+    }
+
+    .home_titulo_saiba {
+        font-size: 27px;
+    }
+
+    .home_quem_somos>div>div {
+        height: 77%;
     }
 }
