@@ -4,9 +4,9 @@
   box-sizing: border-box;
   --font1: 'Poppins', sans-serif;
   color: #12264B;
-font-size: 21px;
-font-family: Poppins;
-text-decoration-line: underline;
+  font-size: 26px;
+  font-family: Poppins;
+  text-decoration-line: underline;
 
 }
 
@@ -18,6 +18,7 @@ text-decoration-line: underline;
   --font1: 'Poppins', sans-serif;
 
 }
+
 /* Header */
 * {
   margin: 0;
@@ -88,12 +89,12 @@ header a {
   text-decoration: none;
   font-size: 24px;
   color: var(--cor-branco);
-  
+
 }
 
 header nav {
   width: 89%;
-  
+
 }
 
 
@@ -115,9 +116,9 @@ header nav {
 }
 
 .btnCadastrar {
-  
+
   border-radius: 30px;
-  text-decoration:none;
+  text-decoration: none;
   color: #12264B;
   font-weight: 700;
 }
@@ -154,9 +155,6 @@ form {
   align-items: center;
   padding: 10px 50px;
   margin-left: 50px;
-  
-
-
 
 }
 
@@ -172,16 +170,16 @@ form {
 .alinhamento_campos_login input {
   border-radius: 30px;
   border: none;
-  height: 50px;
+  height: 37 px;
   width: 95%;
   background-color: #EDEDED;
   font-family: 'Poppins';
 }
 
 .alinhamento_campos_login label {
-  font-size: 25px;
+  font-size: 24px;
   margin-bottom: -3px;
-  color:#252936;
+  color: #252936;
 
 }
 
@@ -206,7 +204,6 @@ form {
   border-radius: 30px;
   border: none;
   background-color: #00B1EB;
-
 
 }
 
@@ -233,12 +230,18 @@ main img {
 }
 
 #lembre_me {
-  border-radius: 10px;
+  border-radius: 20px;
+  width: 35px;
+  height: 25px; 
+
 }
+#lembre_me:checked {
+  background-color: gray;
+}*/
 
 
-footer{
-  background-color:#12264B;
+footer {
+  background-color: #12264B;
   display: flex;
   width: 100%;
   align-items: center;
@@ -247,17 +250,18 @@ footer{
 }
 
 
-.container_80{
+.container_80 {
   /* background-color:#12264B; */
   display: flex;
-  width:80%;
+  width: 80%;
   align-items: center;
   justify-content: center;
 
 }
 
-.container_80 span,.container_80 span a{
-  color:#FFFFFF;
+.container_80 span,
+.container_80 span a {
+  color: #FFFFFF;
 
 }
 
@@ -265,157 +269,157 @@ footer{
 
 @media screen and (max-width: 1700px) {
   header a {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .imgs_social_medias {
-      width: 17%;
+    width: 17%;
   }
 }
 
 @media screen and (max-width: 1300px) {
   header a {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   main {
-      background-image: none;
+    background-image: none;
   }
 
 }
 
 @media screen and (max-width: 1100px) {
   header a {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .btn_cadastrar {
-      display: none;
+    display: none;
   }
 
   header nav {
-      width: 70vw;
+    width: 70vw;
   }
 
   .imgs_social_medias {
-      width: 20%;
+    width: 20%;
   }
 
   .imgs_social_medias img {
-      width: 28%;
+    width: 28%;
   }
 }
 
 @media screen and (max-width: 900px) {
   header nav {
-      width: 70vw;
+    width: 70vw;
   }
 
   .img_footer {
-      margin-left: -16%;
-      width: unset;
-      height: unset;
+    margin-left: -16%;
+    width: unset;
+    height: unset;
   }
 
   footer span {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .footer_text {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .alinhamento_footer {
-      flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   footer {
-      height: 100%;
+    height: 100%;
   }
 
   .nav_mobile {
-      display: flex;
-      width: 50%;
-      justify-content: space-between;
-      margin-top: 4%;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 4%;
   }
 
   .nav_desktop {
-      display: none;
+    display: none;
   }
 }
 
 
 @media screen and (max-width: 800px) {
   header img {
-      width: 16%;
+    width: 16%;
   }
 
   .menu_barras svg {
-      height: 13vh;
-      width: 4vw;
-      fill: var(--cor-branco);
+    height: 13vh;
+    width: 4vw;
+    fill: var(--cor-branco);
   }
 
   .menu_barras {
-      display: block;
+    display: block;
   }
 
   header nav {
-      display: none;
+    display: none;
   }
 
   .posicionamento_header {
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      padding: 0 50px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 0;
   }
 
   .posicionamento_header nav {
-      display: none;
-      position: absolute;
-      top: 0;
-      height: 100vh;
-      width: 100%;
-      background-color: #12264B;
-      flex-direction: column;
-      z-index: 1;
-      border: 1px solid var(--branco);
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #12264B;
+    flex-direction: column;
+    z-index: 1;
+    border: 1px solid var(--branco);
   }
 
   .primeira_nav {
-      width: 25vw;
-      padding-right: 5%;
+    width: 25vw;
+    padding-right: 5%;
   }
 
   .imgs_social_medias {
-      width: 30%;
-      padding-right: 3%;
+    width: 30%;
+    padding-right: 3%;
   }
 
   .imgs_social_medias img {
-      width: 29%;
+    width: 29%;
   }
 
   .links {
-      justify-content: initial;
-      padding: 0% 5% 0% 5%;
+    justify-content: initial;
+    padding: 0% 5% 0% 5%;
   }
 
   .navegacao_header {
-      margin-bottom: 3%;
-      margin-top: 1%;
+    margin-bottom: 3%;
+    margin-top: 1%;
   }
 
   .links>div a {
-      display: block;
-      width: unset;
+    display: block;
+    width: unset;
   }
 
   .links>div {
-      align-items: center;
-      justify-content: space-between;
-      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
   }
 }
