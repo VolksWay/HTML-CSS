@@ -572,12 +572,22 @@
     .home_card_conteudo {
         width: 38%;
     }
-}
 
-@media screen and (max-width: 1750px) {
     .home_card_saiba p {
         height: 11vh;
         width: 100%;
+    }
+
+    .faz_diferenca_card{
+        padding: 1.5%;
+    }
+
+    .faz_diferenca_card_conteudo {
+        width: 17vw;
+    }
+
+    .faz_diferenca_card img{
+        width: 24%;
     }
 }
 
