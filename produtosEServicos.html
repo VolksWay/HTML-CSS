@@ -21,27 +21,34 @@
 </head>
 
 <body>
-    <header>
-        <img src="./img/logo.png" alt="logo volksway">
+    <header class="direction_row align_center posicionamento_header">
+        <img src="./img/logo.png" alt="Logo da Volkswagen">
 
-        <a id="menu_barras" aria-label="abrir menu" aria-controls="menu_links" aria-expanded="false"
-            aria-haspopup="true" class="produtosMenu_barras" href="#" onclick="mostrarMenu()">
-            <!-- evento - quando acontecer alguma coisa 'onclick'-->
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Abrir um menu"
+            aria-controls="links" aria-expanded="false" aria-haspopup="true"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
                 <path
                     d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
-        </a>
+            </svg></a>
 
-        <nav id="menu_links" alt="menu links de navegação">
-            <a href="#" alt="noticias">noticias</a>
-            <a href="#" alt="quem somos">quem Somos</a>
-            <a href="#" alt="por que a volksway?">por que a volksway?</a>
-            <a href="#" alt="contato">contato</a>
+        <nav class="space_evenly links" id="links">
+            <div>
+                <a href="#">volks<span>way</span></a>
+                <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Fechar um menu"
+                    aria-controls="links" aria-expanded="true" aria-haspopup="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                    </svg>
+                </a>
+            </div>
+
+            <a class="navegacao_header" href="">Noticias</a>
+            <a class="navegacao_header" href="">Quem somos</a>
+            <a class="navegacao_header" href="">Por que a VolksWay?</a>
+            <a class="navegacao_header" href="">Contato</a>
         </nav>
-
     </header>
-
 
     <main>
 
@@ -53,7 +60,6 @@
 
         <div class="slider-wrapper produtos_posicionamento ">
             <div class="slider">
-
                 <div class="banner1">
                     <img id="slide-1" src="./img/banner_produto.png">
                     <div class="produtos_banner_conteudo">
@@ -119,7 +125,7 @@
         </div>
         <section class="produtos_ofertas_especiais produtos_posicionamento">
 
-            <a href="#offer_slide_5">
+            <a href="#offer_slide_5">                                   
                 <img class="produtos_setaOfertas" src="./img/ofertas-especiais-esquerda.svg"
                     alt="icone de mover cards de ofertas para esquerda">
             </a>
@@ -438,9 +444,9 @@
         </section>
     </main>
 
-    <footer>
+    <!-- <footer>
         <div class="divfooter1">
-            <img src="./img/logo.png" alt="">
+            <img src="./img/logo.png" alt="logo volksway">
             <h2>como falar com a gente?</h2>
             <span>meajuda@volksway.com.br</span>
         </div>
@@ -462,11 +468,60 @@
 
         </div>
         <div class="divfooter4">
-            <img class="insta" src="./img/insta_branco.png" alt="">
-            <img class="face" src="./img/face_branco.png">
-            <img class="in" src="./img/link_branco.png" alt="">
+            <img class="insta" src="./img/insta_branco.png" alt="botao instagram">
+            <img class="face" src="./img/face_branco.png" alt="botao facebook">
+            <img class="in" src="./img/link_branco.png" alt="botao linkedin">
         </div>
 
+    </footer> -->
+
+
+     <footer>
+        <div class="container direction_row space_between align_center alinhamento_footer">
+            <div>
+                <img class="img_footer" src="./img/logo.png" alt="Logo da Volkswagen">
+                <div>
+                    <span>Como falar com a gente?</span>
+                    <p class="footer_text">meajuda@VolksWay.com.br</p>
+                </div>
+            </div>
+
+            <nav class="direction_column nav_desktop">
+                <a class="footer_text" href="">Home</a>
+                <a class="footer_text" href="">Como funciona</a>
+                <a class="footer_text" href="">Mais vendidos</a>
+                <a class="footer_text" href="">Quem somos</a>
+            </nav>
+
+            <nav class="direction_column nav_desktop">
+                <a class="footer_text" href="">Contato</a>
+                <a class="footer_text" href="">Notícias</a>
+                <a class="footer_text" href="">FAQ</a>
+                <a class="footer_text" href="">Por que a VolksWay?</a>
+            </nav>
+
+            <div class="nav_mobile">
+                <nav class="direction_column primeira_nav">
+                    <a class="footer_text" href="">Home</a>
+                    <a class="footer_text" href="">Como funciona</a>
+                    <a class="footer_text" href="">Mais vendidos</a>
+                    <a class="footer_text" href="">Quem somos</a>
+                </nav>
+
+                <nav class="direction_column">
+                    <a class="footer_text" href="">Contato</a>
+                    <a class="footer_text" href="">Notícias</a>
+                    <a class="footer_text" href="">FAQ</a>
+                    <a class="footer_text" href="">Por que a VolksWay?</a>
+                </nav>
+            </div>
+
+            <div class="space_between imgs_social_medias">
+                <img src="./img/insta_branco.png" alt="Logo do instagram">
+                <img src="./img/face_branco.png" alt="Logo do facebook">
+                <img src="./img/link_branco.png" alt="Logo do linkend">
+            </div>
+        </div>
     </footer>
 
 
