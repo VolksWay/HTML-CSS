@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--poppins300);
+    font-family: var(-var(--fonte-primaria)00);
 }
 
 :root {
@@ -17,7 +17,7 @@
     --cor-quartenaria: #195F8C;
     --cor-cinza-escuro: #252936;
     --cor-preto: #000000;
-    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-primaria: 'poppins', sans-serif;
     --fonte-tamanho: 18px;
 }
 
@@ -122,18 +122,10 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 622px;
     margin-left: 70px;
 }
 
-header a {
-
-    color: white;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-family: var(--font1);
-    font-size: 18px;
-}
 
 /*==================================voltar*/
 .div_voltar {
@@ -153,7 +145,7 @@ header a {
 }
 
 .spanVoltar {
-    font-family: 'Poppins';
+    font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -181,7 +173,7 @@ header a {
 .seu_cadastro {
     display: flex;
     /*  background-color: #ddb16f; */
-    font-family: 'Poppins';
+    font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -200,7 +192,7 @@ header a {
 }
 
 .se_destaca {
-    font-family: 'Poppins';
+    font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -212,7 +204,7 @@ header a {
 /*===============================nome*/
 
 .nome {
-    font-family: 'Poppins';
+    font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -272,6 +264,7 @@ section {
 }
 
 .btnProximo {
+    font-family: var(--fonte-primaria);
     border-radius: 30px;
     text-decoration: none;
     text-transform: capitalize;
@@ -462,7 +455,7 @@ section {
     }
     .btn_proximo {
         width: 206px;
-        height: 49px;
+       
     }
 
     .texto_privacidade {
