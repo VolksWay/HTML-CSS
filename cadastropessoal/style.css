@@ -108,15 +108,16 @@ header nav {
 
 
 /*==================================voltar*/
+
 .div_voltar {
-    height: 50px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 26px;
-    margin-bottom: 29px;
-}
+        height: 40px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-left: 26px;
+        margin-bottom: 20px;
+    }
 
 .seta_voltar {
     width: 45px;
@@ -124,13 +125,14 @@ header nav {
     color: var(--dark_blue);
 }
 
-.spanVoltar {
+.aVoltar {
     font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
     color: var(--dark_blue);
+    text-decoration: none; 
 
 }
 
@@ -146,7 +148,7 @@ header nav {
     width: 400px;
     justify-content: space-between;
     align-items: center;
-    margin-left: 65px;
+    margin-left: 50px;
     margin-bottom: 15px;
 }
 
@@ -281,7 +283,7 @@ section {
 
 
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1235px) {
     .imgIlustracao {
         display: none;
     }
@@ -295,6 +297,7 @@ section {
     header nav {
         width: 70vw;
     }
+    
 
     /* .imgs_social_medias {
         width: 20%;
