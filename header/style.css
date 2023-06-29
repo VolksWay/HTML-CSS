@@ -77,7 +77,7 @@ header a {
 }
 
 header nav {
-    width: 47vw;
+    width: 47%;
 }
 
 .menu_barras {
@@ -170,94 +170,196 @@ h1 {
     margin-left: 33px;
 }
 
-.adm_portal {
+.adm_portal_o {
     border: 2px solid var(--cor-primaria);
     width: 100%;
-    height: 700px;
+    height: 315px;
+
+
+}
+
+.adm_portal {
+
+    width: 100%;
+    height: 320px;
     display: flex;
     flex-direction: row;
-    
+
 
 }
 
 .adm_portal1 {
     width: 100%;
-    height: 700px;
+    height: 500px;
     display: flex;
     flex-direction: row;
 
 
 }
 
+.parte3 {
+    display: flex;
+    gap: 35px;
+
+}
+
+.parte4 {
+
+    display: flex;
+    gap: 35px;
+}
+
+
 .Pi_adm {
     width: 400px;
     height: 200px;
-    margin: 25px;
-    background-color: #ededed;
+    margin: 50px;
     border: 2px solid var(--cor-primaria);
     text-align: center;
+    align-items: center;
 
 }
 
 .mensagem_Parceiro {
     width: 250px;
     height: 100px;
-    margin: 25px;
-    background-color: #ededed;
+    margin: 27px;
     border: 2px solid var(--cor-primaria);
     text-align: center;
 
 }
 
 .Mensagens_Motorista {
-    width: 200px;
+    width: 250px;
     height: 100px;
-    margin: 25px;
-    background-color: #ededed;
+    margin: 27px;
     border: 2px solid var(--cor-primaria);
     text-align: center;
 }
 
 .Mensagens_Adm_Frota {
-    width: 200px;
+    width: 250px;
     height: 100px;
-    margin: 25px;
-    background-color: #ededed;
+    margin: 27px;
     border: 2px solid var(--cor-primaria);
     text-align: center;
 }
 
 .Forum {
-    width: 200px;
+    width: 250px;
     height: 100px;
-    margin: 75px;
-    background-color: #ededed;
+    margin: 27px;
     border: 2px solid var(--cor-primaria);
     text-align: center;
 }
 
 .calendario {
-    width: 200px;
+    width: 250px;
     height: 100px;
-    margin: 20px;
-    background-color: #ededed;
+    margin: 27px;
     border: 2px solid var(--cor-primaria);
     text-align: center;
 
 
 }
 
+.calendario {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.calendario>input {
+    width: 100px;
+
+
+}
+
+.mini_banner {
+    width: 100%;
+    height: 60px;
+    background-color: var(--cor-primaria);
+
+}
+
+.mini_banner img {
+    width: 10%;
+    height: 400px;
+    padding-left: 35px;
+
+}
+
+.rel_adm1 {
+    width: 100%;
+    height: 800px;
+}
+
+.box_açoes {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border: 4px solid var(--cor-primaria);
+
+}
+
+.Mensagens1 {
+
+    width: 93%;
+    border: 3px solid var(--cor-primaria);
+    height: 100px;
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+
+}
+
+    .Mensagens12 {
+
+        width: 93%;
+        border: 3px solid var(--cor-primaria);
+        height: 100px;
+        font-size: 15px;
+        font-family: var(--fonte-primaria);
+        align-items: center;
+       
+}
+
+
+    
+
+    
 
 
 
 
 
+
+
+
+/* .Mensagens1{
+   
+        font-size: 20px;
+        font-family: var(--fonte-primaria);
+    } */
 
 
 /* Footer */
 footer {
     background-color: var(--cor-primaria);
-    width: 100vw;
+    width: 100%;
+    height: 291px;
+
+}
+
+/* Footer */
+footer {
+    background-color: var(--cor-primaria);
+    width: 100%;
     height: 291px;
 }
 
