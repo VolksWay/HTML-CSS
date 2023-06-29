@@ -6,7 +6,7 @@
   color: #12264B;
   font-size: 26px;
   font-family: Poppins;
-  text-decoration-line: underline;
+  text-decoration-line: none;
 
 }
 
@@ -149,8 +149,8 @@ form {
   background: transparent;
   display: flex;
   flex-direction: column;
-  height: 82%;
-  width: 600px;
+  height: 92%;
+  width: 594px;
   gap: 40px;
   align-items: center;
   padding: 10px 50px;
@@ -219,7 +219,7 @@ form {
 }
 
 main img {
-  width: 60%;
+  width: 107%;
   height: 100%;
 }
 
@@ -251,9 +251,9 @@ footer {
 
 
 .container_80 {
-  /* background-color:#12264B; */
+  background-color:#12264B;
   display: flex;
-  width: 80%;
+  width: 100%;
   align-items: center;
   justify-content: center;
 
@@ -265,6 +265,10 @@ footer {
 
 }
 
+
+.login_img_conteudo{
+  display: none;
+}
 
 
 @media screen and (max-width: 1700px) {
@@ -288,7 +292,15 @@ footer {
 
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1299px) {
+  .login_img_conteudo{
+    display: initial;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
   header a {
     font-size: 18px;
   }
@@ -422,4 +434,22 @@ footer {
     justify-content: space-between;
     display: flex;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .login_img_conteudo{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 440px) {
+  .link_nao_cadastro{
+    font-size: 19px;
+        
+  }
+  form{
+    padding: 10px 0;
+  }
+    
 }
