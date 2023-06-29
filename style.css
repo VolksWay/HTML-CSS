@@ -404,7 +404,6 @@ footer span {
         display: flex;
     }
 }
-
 @media screen and (max-width: 600px) {
     header>div>h1 {
         width: 50vw;
@@ -413,24 +412,20 @@ footer span {
     .cad_ofertas_btn {
         min-width: 320px;
     }
-
     .cad_ofertas_collumn{
         width: 100%;
     }
     .linha{
         border-top: 1px solid #000000;
-
     }
     .cad_ofertas_NomeCampos {
         display: none;
     }
     table tr :nth-child(5){
         display: none;
-
     }  
     table tr :nth-child(8){
         display: none;
-
     }  
     aside{
         display: none;
@@ -465,61 +460,88 @@ footer span {
 .cad_ofertas_input {
     background-color: var(--branco);
     width: 80%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 440px;
     padding: 20px;
 }
-form {
-    display: grid;
-    grid-template-columns: 25% 20% 25% 20%;
-    grid-row-gap: 23px;
-    align-items: stretch;
-    grid-column-gap: 28px;
-    justify-content: center;
-    padding: 0 60px;
-
+.cad_ofertas_inpcad {
+    font-size: 12px ;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+.p1{
+    display: flex;
+    width: 100%;
+    margin: 10px;
 }
 
+.coluna{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+}
+.cad_ofertas_inpcad{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .cad_ofertas_inpcad  input{
     height: 25px;
-    border-radius: 30px;
+    padding: 12px;
+}
+.inp input{
+    width: 210%;
+    height: 25px;
+    padding: 12px;
+}
+.data input{
+    width: 160px;
+}
 
+.cad_ofertas_inpcad  label{
+    font-weight: bolder;
+}
+.cad_ofertas_inpcad input[type="file"] {
+    height: 40px;
+    text-align: center;
 }
 .cad_ofertas_inpcad  select{
-    height: 25px;
-    border-radius: 30px;
-
+    height: 28px;
+    text-align: center;
 }
-
 .cad_ofertas_inpcad span{
     font-size: 26px;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    margin: 0 0 55px 0;
 }
 .cad_ofertas_input .btns{
     display: flex;
     justify-content: flex-end;
-    padding: 20px 0 0 0;
+    margin: 0 0 20px 0 ;
+    position: relative;
+    top: -30px;
 }
 .btns button{
     border-radius: 30px;
-    width: 99px;
+    width: 105px;
     height: 44px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     border: none;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
 }
-
 .btns :nth-child(1){
-    background: #DF0B0B;;
+    background: var(--azulClaro);
 }
 .btns :nth-child(2){
-    background: #00B1EB;
+    background: var(--amarelo);
+    color: var(--azulEscu);
 }
 
