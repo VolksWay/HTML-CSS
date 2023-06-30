@@ -137,13 +137,14 @@ header {
     color: var(--dark_blue);
 }
 
-.spanVoltar {
+.aVoltar {
     font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
     color: var(--dark_blue);
+    text-decoration: none;
 
 }
 
@@ -441,7 +442,7 @@ section {
         width: 20px;
         height: 20px;
     }
-    .spanVoltar{
+    .aVoltar{
         font-size: 16px;
     }
     .btn_proximo {
