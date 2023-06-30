@@ -93,7 +93,7 @@ header nav {
     backdrop-filter: blur(25px);
 }
 
-.botao_cadastre {
+.btn_cadastrar {
     background-color: var(--cor-secundaria);
     border-radius: 27px;
     font-family: var(--fonte-primaria);
@@ -104,7 +104,26 @@ header nav {
     padding: 0.7% 1.8%;
 }
 
-.nav_header_conteudo{
+/* .btn_cadastrar{
+    border-radius: 30px;
+  text-decoration: none;
+  color: #12264B;
+  font-weight: 700;
+}
+
+.posicionamento_cadastrar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 303px;
+    height: 57px;
+    background: #FFD100;
+    border-radius: 30px;
+    margin-left: 65px;
+    margin-top: -20px;
+} */
+
+.nav_header_conteudo {
     display: initial;
 }
 
@@ -147,15 +166,16 @@ footer span {
     display: none;
 }
 
-.nav_mobile {
+.navs_mobile {
     display: none;
 }
 
 
 
 @media screen and (max-width: 1700px) {
+
     .nav_header_conteudo,
-header a{
+    header a {
         font-size: 20px;
     }
 
@@ -165,15 +185,17 @@ header a{
 }
 
 @media screen and (max-width: 1300px) {
+
     .nav_header_conteudo,
-header a {
+    header a {
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 1100px) {
+
     .nav_header_conteudo,
-header a{
+    header a {
         font-size: 18px;
     }
 
@@ -217,7 +239,7 @@ header a{
         height: 100%;
     }
 
-    .nav_mobile {
+    .navs_mobile {
         display: flex;
         width: 50%;
         justify-content: space-between;
