@@ -284,3 +284,11 @@ footer span {
         display: flex;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .menu_barras svg {
+        height: 12vh;
+        width: 7vw;
+        fill: var(--cor-branco);
+    }
+}
