@@ -124,13 +124,14 @@ header nav {
     color: var(--dark_blue);
 }
 
-.spanVoltar {
+.aVoltar {
     font-family: var(--fonte-primaria);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
     color: var(--dark_blue);
+    text-decoration: none;
 
 }
 
@@ -346,9 +347,9 @@ section {
 
 
 @media screen and (max-width: 800px) {
-    header img {
+    /* header img {
         width: 16%;
-    }
+    } */
 
     .menu_barras svg {
         height: 13vh;
@@ -428,7 +429,7 @@ section {
         width: 20px;
         height: 20px;
     }
-    .spanVoltar{
+    .aVoltar{
         font-size: 16px;
     }
     .btn_proximo {
@@ -444,26 +445,31 @@ section {
 }
 @media screen and (max-width: 730px) {
     .seu_cadastro {
-        width: 320px;
+        max-width: 320px;
+        width: 100%;
     }
     .conteudo{
-        width: 320px;
-        height: 475px;
+        max-width: 320px;
+        width: 100%;
 
     }
     .seDestaca {
-        width: 320px;
+        max-width: 320px;
+        width: 100%;
     }  
 }
-@media screen and (max-width: 470px){
+@media screen and (max-width: 520px){
     .nome{
-        width: 320px;
+        max-width: 320px;
+        width: 100%;
     }
     .nome_input {
-        width: 320px;
+        max-width: 320px;
+        width: 100%;
     }
     .inputs{
-        width: 320px;
+        max-width: 320px;
+        width: 100%;
     }
 }    
 
@@ -471,22 +477,31 @@ section {
 
 @media screen and (max-width: 400px){
     .seu_cadastro{
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
     }
     .se_destaca{
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
     }
     .seDestaca{
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
     }
     .nome{
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
     }
     .nome_input{
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
     }
     .inputs{
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
+    }
+    header img {
+        width: 30%;
     }
 }
 @media screen and (max-width: 330px){
@@ -494,7 +509,8 @@ section {
         align-items: center;
     }
     .nome_input{
-        width: 230px;
+        max-width: 230px;
+        width: 100%;
     }
 
 }
