@@ -55,9 +55,15 @@
     justify-content: space-around;
 }
 
+.navegacao {
+    margin-right: 40%;
+    /*jogando os links para a direita*/
+}
+
 
 /* Header */
 header {
+    display: flex;
     background-color: var(--cor-primaria);
     border-bottom: 3px solid var(--cor-secundaria);
 }
@@ -68,10 +74,12 @@ header a {
     text-decoration: none;
     font-size: 24px;
     color: var(--cor-branco);
+    padding: 10px;
+    /*espaço entre os links*/
 }
 
 header nav {
-    width: 47vw;
+    width: 100vw;
 }
 
 .menu_barras {
@@ -102,9 +110,10 @@ header nav {
     text-align: center;
     color: var(--cor-primaria);
     padding: 0.7% 1.8%;
+    text-transform: capitalize;
 }
 
-.nav_header_conteudo{
+.nav_header_conteudo {
     display: initial;
 }
 
@@ -118,7 +127,7 @@ header nav {
 /* Footer */
 footer {
     background-color: var(--cor-primaria);
-    width: 100vw;
+    width: 100%;
     height: 291px;
 }
 
@@ -161,8 +170,9 @@ footer span {
 
 
 @media screen and (max-width: 1700px) {
+
     .nav_header_conteudo,
-header a{
+    header a {
         font-size: 20px;
     }
 
@@ -171,21 +181,42 @@ header a{
     }
 }
 
+@media screen and (max-width: 1405px) {
+
+
+    .navegacao {
+        margin-right: 35%;
+    }
+
+}
+
+
+
 @media screen and (max-width: 1300px) {
+
     .nav_header_conteudo,
-header a {
+    header a {
         font-size: 18px;
+    }
+
+    .navegacao {
+        margin-right: 0%;
     }
 }
 
 @media screen and (max-width: 1100px) {
+
     .nav_header_conteudo,
-header a{
+    header a {
         font-size: 18px;
     }
 
     header nav {
         width: 70vw;
+    }
+
+    .navegacao {
+        margin-right: 0%;
     }
 
     .imgs_social_medias {
@@ -198,6 +229,10 @@ header a{
 }
 
 @media screen and (max-width: 900px) {
+    .navegacao {
+        margin-right: 0%;
+    }
+
     header nav {
         width: 70vw;
     }
@@ -238,6 +273,10 @@ header a{
 
 
 @media screen and (max-width: 800px) {
+    .navegacao {
+        margin-right: 0%;
+    }
+
     header img {
         width: 16%;
     }
@@ -256,10 +295,10 @@ header a{
         display: none;
     }
 
-    .nav_header_conteudo{
+    .nav_header_conteudo {
         display: flex;
         flex-direction: column;
-    
+
     }
 
     .posicionamento_header {
