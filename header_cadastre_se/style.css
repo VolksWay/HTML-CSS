@@ -48,7 +48,7 @@
 
 .space_evenly {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .space_around {
@@ -107,6 +107,13 @@ header nav {
 .nav_header_conteudo{
     display: initial;
 }
+
+
+
+
+
+
+
 
 /* Footer */
 footer {
@@ -247,6 +254,12 @@ header a{
 
     header nav {
         display: none;
+    }
+
+    .nav_header_conteudo{
+        display: flex;
+        flex-direction: column;
+    
     }
 
     .posicionamento_header {

@@ -67,11 +67,14 @@ header a {
     text-decoration: none;
     font-size: 24px;
     color: var(--cor-branco);
+    
 }
 
 header nav {
     width: 47vw;
 }
+
+
 
 .menu_barras {
     display: none;
