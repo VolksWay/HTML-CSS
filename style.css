@@ -282,6 +282,112 @@ footer span {
 .nav_mobile {
     display: none;
 }
+.p1_none{
+    display: none;
+}
+/* input */
+
+.cad_ofertas_bluer{
+    width: calc(100% - 99px);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: radial-gradient(45.97% 45.97% at 49.12% 54.03%, rgba(21, 14, 14, 0) 0%, rgba(21, 14, 14, 0.6) 68.23%);
+    backdrop-filter: blur(10px);
+    height: calc(100% - 134px);
+    top: 113px;
+    justify-content: center;
+}
+.cad_ofertas_input {
+    background-color: var(--branco);
+    width: 80%;
+    height: 440px;
+    padding: 20px;
+}
+.cad_ofertas_inpcad {
+    font-size: 12px ;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 100%;
+}
+.p1{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+}
+
+.cad_ofertas_inpcad  input{
+    height: 25px;
+    padding: 12px;
+    min-width: 150px;
+}
+.inp input{
+    width: 210%;
+    height: 25px;
+    padding: 12px;
+}
+.data input{
+    width: 160px;
+}
+
+.cad_ofertas_inpcad  label{
+    font-weight: bolder;
+    min-width: 150px;
+
+}
+.cad_ofertas_inpcad input[type="file"] {
+    height: 40px;
+    text-align: center;
+    min-width: 150px;
+}
+.cad_ofertas_inpcad  select{
+    height: 28px;
+    text-align: center;
+    min-width: 150px;
+
+}
+.cad_ofertas_inpcad span{
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.cad_ofertas_input .btns{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 20px 0 ;
+    position: relative;
+    top: -30px;
+}
+.btns button{
+    border-radius: 30px;
+    width: 105px;
+    height: 44px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin: 10px 10px 0 10px;
+}
+.btns :nth-child(1){
+    background: var(--azulClaro);
+}
+.btns :nth-child(2){
+    background: var(--amarelo);
+    color: var(--azulEscu);
+}
 
 
 
@@ -309,6 +415,15 @@ footer span {
 
     .imgs_social_medias img {
         width: 28%;
+    }
+}
+@media screen and (max-width: 970px) {
+    .cad_ofertas_input {
+        height: 470px;
+    }
+    .cad_ofertas_input .btns {
+        position: relative;
+        top: -10px;
     }
 }
 
@@ -353,7 +468,11 @@ footer span {
         display: none;
     }
 }
-
+@media screen and (max-width: 810px) {
+    .cad_ofertas_inpcad label {
+        font-size: 12px;
+    } 
+}
 
 @media screen and (max-width: 800px) {
     .cad_ofertas_corpo {
@@ -403,6 +522,36 @@ footer span {
         justify-content: space-between;
         display: flex;
     }
+    .data input {
+        width: 130px;
+    }
+}
+@media screen and (max-width: 750px){
+    .cad_ofertas_bluer {
+        height: 100%;
+    }
+    .cad_ofertas_input {
+        height: 95%;
+    }
+    .p1_none{
+        display: initial;
+        display: flex;
+        width: 100%;
+        margin: 20px 0 20px 0;
+        justify-content:  space-around;
+    }
+    .p1{
+        margin: 20px 0 20px 0;
+        justify-content:  space-around;
+    }
+    .p1 :nth-child(3){
+        display: none;
+    }
+    .inp input {
+        width: 20%;
+        height: 60px;
+
+    }
 }
 @media screen and (max-width: 600px) {
     header>div>h1 {
@@ -445,103 +594,59 @@ footer span {
         flex-direction: column;
         height: 100px;
     }
+    .cad_ofertas_bluer {
+        width: 100%;
+    }
 }
-.cad_ofertas_bluer{
-    width: calc(100% - 99px);
-    display: flex;
-    align-items: center;
-    position: absolute;
-    background: radial-gradient(45.97% 45.97% at 49.12% 54.03%, rgba(21, 14, 14, 0) 0%, rgba(21, 14, 14, 0.6) 68.23%);
-    backdrop-filter: blur(10px);
-    height: calc(100% - 113px);
-    top: 113px;
-    justify-content: center;
+@media screen and (max-width: 600px) {
+    .cad_ofertas_inpcad span {
+        font-size: 18px;
+    }
+    .cad_ofertas_bluer {
+        height: 900px;
+    }
+    .p1{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 -30px;
+        justify-content: center;
+    }
+    .p1_none{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 -30px;
+    }
+    .cad_ofertas_inpcad label {
+        text-align: center;
+    }
+    .cad_ofertas_inpcad input {
+        min-width: 180px;
+    }
+    .cad_ofertas_inpcad select {
+        min-width: 180px;
+    }
+    .cad_ofertas_inpcad input[type="file"] {
+        min-width: 200px;
+    }
+    .cad_ofertas_input .btns {
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-evenly;
+       top: 10px;
+    }
 }
-.cad_ofertas_input {
-    background-color: var(--branco);
-    width: 80%;
-    height: 440px;
-    padding: 20px;
+@media screen and (max-width: 450px) {
+    header>div>h1 {
+        font-size: 20px;
+        text-align: start;
+    }
+    .cad_ofertas_inpcad span {
+        font-size: 14px;
+    }
+    .p1{
+        margin: 0 -50px;
+    }
+    .p1_none{
+        margin: 0 -50px;
+    }
 }
-.cad_ofertas_inpcad {
-    font-size: 12px ;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-form{
-    width: 100%;
-}
-.p1{
-    display: flex;
-    width: 100%;
-    margin: 10px;
-}
-
-.coluna{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin: 10px;
-}
-.cad_ofertas_inpcad{
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.cad_ofertas_inpcad  input{
-    height: 25px;
-    padding: 12px;
-}
-.inp input{
-    width: 210%;
-    height: 25px;
-    padding: 12px;
-}
-.data input{
-    width: 160px;
-}
-
-.cad_ofertas_inpcad  label{
-    font-weight: bolder;
-}
-.cad_ofertas_inpcad input[type="file"] {
-    height: 40px;
-    text-align: center;
-}
-.cad_ofertas_inpcad  select{
-    height: 28px;
-    text-align: center;
-}
-.cad_ofertas_inpcad span{
-    font-size: 26px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
-.cad_ofertas_input .btns{
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 0 20px 0 ;
-    position: relative;
-    top: -30px;
-}
-.btns button{
-    border-radius: 30px;
-    width: 105px;
-    height: 44px;
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
-    margin: 10px 10px 0 10px;
-}
-.btns :nth-child(1){
-    background: var(--azulClaro);
-}
-.btns :nth-child(2){
-    background: var(--amarelo);
-    color: var(--azulEscu);
-}
-
