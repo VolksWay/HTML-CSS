@@ -17,7 +17,7 @@
     --cor-quartenaria: #195F8C;
     --cor-cinza-escuro: #252936;
     --cor-preto: #000000;
-    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-primaria: 'Poppins';
     --fonte-tamanho: 18px;
 }
 
@@ -98,7 +98,7 @@ header {
 header a {
     font-family: var(--fonte-primaria);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--cor-branco);
 }
 
@@ -150,7 +150,7 @@ main {
     color: var(--dark_blue);
 }
 
-.voltar {
+.aVoltar {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -305,8 +305,8 @@ main {
 
 /**/
 /*==============================================footer*/
-footer {
-    
+
+
     .container_80 {
         width: 80%;
         height: 100%;
@@ -334,7 +334,7 @@ footer {
         font-family: var(--fonte-primaria);
     }
 
-}
+
 
 section {
     /*     background-color:rgb(155, 245, 245); */
@@ -352,12 +352,15 @@ section {
     border-radius: 30px;
     margin-left: 65px;
     margin-top: -20px;
+    
 }
 
 .btnProximo {
     background: #FFD100;
     border-radius: 30px;
     text-decoration: none;
+    font-family: var(--fonte-primaria);
+    text-transform: capitalize;
 }
 
 .imgIlustracao {
@@ -462,6 +465,7 @@ section {
     }
 
     .menu_barras svg {
+        
         height: 13vh;
         width: 4vw;
         fill: var(--cor-branco);
@@ -483,15 +487,16 @@ section {
     }
 
     .posicionamento_header nav {
-        display: none;
-        position: absolute;
-        top: 0;
-        height: 100vh;
-        width: 100%;
-        background-color: #12264B;
-        flex-direction: column;
-        z-index: 1;
-        border: 1px solid var(--branco);
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 121vh;
+    background-color: #12264B;
+    flex-direction: column;
+    z-index: 1;
+    border: 1px solid var(--branco);
+    margin-left: 0;
     }
 
     .primeira_nav {
