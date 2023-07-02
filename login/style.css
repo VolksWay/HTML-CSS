@@ -77,52 +77,6 @@
   justify-content: space-around;
 }
 
-
-/* Header */
-header {
-  background-color: var(--cor-primaria);
-  border-bottom: 3px solid var(--cor-secundaria);
-}
-
-header a {
-  font-family: var(--fonte-primaria);
-  text-decoration: none;
-  font-size: 24px;
-  color: var(--cor-branco);
-
-}
-
-header nav {
-  width: 89%;
-
-}
-
-
-.menu_barras {
-  display: none;
-}
-
-
-.btn_cadastrar {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 303px;
-  height: 57px;
-  background: #FFD100;
-  border-radius: 30px;
-  margin-left: 65px;
-  margin-top: -20px;
-}
-
-.btnCadastrar {
-
-  border-radius: 30px;
-  text-decoration: none;
-  color: #12264B;
-  font-weight: 700;
-}
-
 main {
   /* background-color: blue; */
   height: 78vh;
@@ -199,8 +153,8 @@ form {
 .alinhamento_campos_Entrar button {
   align-items: center;
   font-family: 'Poppins';
-  height: 54px;
-  width: 211px;
+  height: 57px;
+  width: 203px;
   border-radius: 30px;
   border: none;
   background-color: #00B1EB;
@@ -248,8 +202,8 @@ footer {
   justify-content: center;
 
 } 
-.container_80 {
-  width: 80%;
+.container_90 {
+  width: 90%;
   height: 100%;
   max-width: 1920px;
   margin: auto;
@@ -271,25 +225,7 @@ footer {
   width: 100vw;
   height: 20px;
 }
-/*
 
-
-.container_80 {
-  background-color:#12264B;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.container_80 span,
-.container_80 span a {
-  color: #FFFFFF;
-
-}
-
-*/
 .login_img_conteudo{
   display: none;
 }

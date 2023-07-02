@@ -17,7 +17,7 @@
 
 <body>
     <header class="direction_row align_center posicionamento_header">
-        <img src="./img/logo.png" alt="Logo da Volkswagen">
+        <a href="../home/index.html#"><img src="../home/img/logo_voksway.png" alt="Logo da VolksWay"></a>
 
         <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Abrir um menu"
             aria-controls="links" aria-expanded="false" aria-haspopup="true"><svg xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@
                     d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
             </svg></a>
 
-        <nav class="space_evenly links" id="links">
+        <nav class="space_evenly align_center links" id="links">
             <div>
                 <a href="#">volks<span>way</span></a>
                 <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Fechar um menu"
@@ -38,10 +38,10 @@
                 </a>
             </div>
 
-            <a class="navegacao_header" href="">Noticias</a>
-            <a class="navegacao_header" href="">Quem somos</a>
-            <a class="navegacao_header" href="">Por que a VolksWay?</a>
-            <a class="navegacao_header" href="">Contato</a>
+            <a class="navegacao_header" href="../home/index.html#noticias" onclick="btnMenu()">Noticias</a>
+            <a class="navegacao_header" href="../home/index.html#quem_somos" onclick="btnMenu()">Quem somos</a>
+            <a class="navegacao_header" href="../home/index.html#por_que" onclick="btnMenu()">Por que a VolksWay?</a>
+            <a class="navegacao_header" href="../home/index.html#contato" onclick="btnMenu()">Contato</a>
         </nav>
     </header>
 
@@ -83,51 +83,10 @@
     </main>
 
     <footer>
-        <div class="container direction_row space_between align_center alinhamento_footer">
-            <div>
-                <img class="img_footer" src="./img/logo.png" alt="Logo da Volkswagen">
-                <div>
-                    <span>Como falar com a gente?</span>
-                    <p class="footer_text">meajuda@VolksWay.com.br</p>
-                </div>
-            </div>
-
-            <nav class="direction_column nav_desktop">
-                <a class="footer_text" href="../home/index.html#">Home</a>
-                <a class="footer_text" href="../home/index.html#objetivo">Como funciona</a>
-                <a class="footer_text" href="../home/index.html#mais_vendidos">Mais vendidos</a>
-                <a class="footer_text" href="../home/index.html#quem_somos">Quem somos</a>
-            </nav>
-
-            <nav class="direction_column nav_desktop">
-                <a class="footer_text" href="../home/index.html#contato">Contato</a>
-                <a class="footer_text" href="../home/index.html#noticias">Notícias</a>
-                <a class="footer_text" href="../privacidade/privacidade.html#">Privacidade</a>
-                <a class="footer_text" href="../home/index.html#por_que">Por que a VolksWay?</a>
-            </nav>
-
-            <div class="nav_mobile">
-                <nav class="direction_column primeira_nav">
-                    <a class="footer_text" href="../home/index.html#">Home</a>
-                    <a class="footer_text" href="../home/index.html#objetivo">Como funciona</a>
-                    <a class="footer_text" href="../home/index.html#mais_vendidos">Mais vendidos</a>
-                    <a class="footer_text" href="../home/index.html#quem_somos">Quem somos</a>
-                </nav>
-
-                <nav class="direction_column">
-                    <a class="footer_text" href="../home/index.html#contato">Contato</a>
-                    <a class="footer_text" href="../home/index.html#noticias">Notícias</a>
-                    <a class="footer_text" href="../privacidade/privacidade.html#">Privacidade</a>
-                    <a class="footer_text" href="../home/index.html#por_que">Por que a VolksWay?</a>
-                </nav>
-            </div>
-
-            <div class="space_between imgs_social_medias">
-                <img src="./img/insta_branco.png" alt="Logo do instagram">
-                <img src="./img/face_branco.png" alt="Logo do facebook">
-                <img src="./img/link_branco.png" alt="Logo do linkend">
-            </div>
+        <div class="container_90">
+            <span class="texto_privacidade">Entenda como estes dados serão utilizados na Volksway, conheça nossa <a href="../privacidade/privacidade.html#">Política de Privacidade</a>.</span>
         </div>
+        <div class="box_footer"></div>
     </footer>
 </body>
 

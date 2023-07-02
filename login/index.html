@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - VolksWay</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./header-footer/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="../home/img/logo_voksway.png" />
+    <script src="../home/header_cadastre_se/js/script.js" defer></script>
+    <script src="../home/script.js" defer></script>
 </head>
 
 <body>
 
     <header class="direction_row align_center posicionamento_header">
-        <img src="./img/logo.png" alt="Logo da Volkswagen">
+        <a href="../home/index.html#"><img src="../home/img/logo_voksway.png" alt="Logo da volksWay"></a>
 
         <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Abrir um menu"
             aria-controls="links" aria-expanded="false" aria-haspopup="true"><svg xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +27,9 @@
                     d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
             </svg></a>
 
-        <nav class="space_evenly links" id="links">
-            <div>
-                <!--  <a href="#">volks<span>way</span></a> -->
+        <nav class="space_evenly align_center links" id="links">
+            <div class="links_conteudo">
+                <a href="#">volks<span>way</span></a>
                 <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Fechar um menu"
                     aria-controls="links" aria-expanded="true" aria-haspopup="false">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -36,23 +39,16 @@
                 </a>
             </div>
 
-            <a class="navegacao_header" href="../home/index.html#noticias">Noticias</a>
-            <a class="navegacao_header" href="../home/index.html#quem_somos">Quem somos</a>
-            <a class="navegacao_header" href="../home/index.html#por_que">Por que a VolksWay?</a>
-            <a class="navegacao_header" href="../home/index.html#contato">Contato</a>
-            </div>
-            </div>
-
-
-
-
-            <div class="btn_cadastrar">
-                <a class="btnCadastrar" href="">Cadastrar-se</a>
-            </div>
-
+            <div class="navegacao">
+                <a class="navegacao_header" href="../home/index.html#noticias" onclick="btnMenu()">Noticias</a>
+                <a class="navegacao_header" href="../home/index.html#quem_somos" onclick="btnMenu()">Quem somos</a>
+                <a class="navegacao_header" href="../home/index.html#por_que" onclick="btnMenu()">Por que a
+                    VolksWay?</a>
+                <a class="navegacao_header" href="../home/index.html#contato" onclick="btnMenu()">Contato</a>
 
             </div>
-            </div>
+            <a href="" class="botao_cadastre">cadastrar-se</a>
+
         </nav>
     </header>
 
@@ -86,17 +82,18 @@
 
 
                 <div class="alinhamento_campos_Entrar">
-                    <a href="../produtos/produtosEServicos.html#">
-                        <button>Entrar</button>
+                    <a type="button" href="../produtos/produtosEServicos.html">
+                        <button>Entrar
+                        </button>
                     </a>
+
                 </div>
 
-                <div class="alinhamento_texto_opcao">
+               <!--  <div class="alinhamento_texto_opcao">
                     <hr>
-                    <!--<span>----ou----</span>comentarios-->
                     <hr>
                 </div>
-
+ -->
             </form>
 
 
@@ -106,17 +103,13 @@
             </div>
 
         </div>
-
-        <!-- <img src="./img/caminhao_login.png" alt="imagem do caminhao da volkswagen"> -->
-
-        <!-- <img src="./caminhao_login.png" alt="imagem de caminhao login"> -->
-
     </main>
 
     <footer><!--rodapé-->
-        <div class="container_80">
+        <div class="container_90">
             <span class="texto_privacidade">Entenda como estes dados serão utilizados na Volksway, conheça nossa
-                <a class="politica_de_privacidade" href="../privacidade/privacidade.html#">Política de Privacidade</a>.</span>
+                <a class="politica_de_privacidade" href="../privacidade/privacidade.html#">Política de
+                    Privacidade</a>.</span>
         </div>
         <div class="box_footer"></div>
     </footer>

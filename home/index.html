@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="../privacidade/header_cadastre_se/style.css">
+    <link rel="stylesheet" href="./header_cadastre_se/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,700;1,800&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <script src="./header/js/script.js" defer></script>
     <script src="./script.js" defer></script>
     <title>Home - VolksWay</title>
@@ -19,7 +19,7 @@
 
 <body>
     <header class="direction_row align_center posicionamento_header">
-        <img src="./img/logo.png" alt="Logo da Volkswagen">
+        <a href="#"><img src="./img/logo_voksway.png" alt="Logo da VolksWay"></a>
 
         <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Abrir um menu"
             aria-controls="links" aria-expanded="false" aria-haspopup="true"><svg xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@
                     d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
             </svg></a>
 
-        <nav class="space_evenly links" id="links">
+        <nav class="space_evenly align_center links" id="links">
             <div class="links_conteudo">
                 <a href="#">volks<span>way</span></a>
                 <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Fechar um menu"
@@ -41,10 +41,10 @@
             </div>
 
             <div class="navegacao">
-                <a class="navegacao_header" href="../home/index.html#noticias">Noticias</a>
-            <a class="navegacao_header" href="../home/index.html#quem_somos">Quem somos</a>
-            <a class="navegacao_header" href="../home/index.html#por_que">Por que a VolksWay?</a>
-            <a class="navegacao_header" href="../home/index.html#contato">Contato</a>
+                <a class="navegacao_header" href="../home/index.html#noticias" onclick="btnMenu()">Noticias</a>
+                <a class="navegacao_header" href="../home/index.html#quem_somos" onclick="btnMenu()">Quem somos</a>
+                <a class="navegacao_header" href="../home/index.html#por_que" onclick="btnMenu()">Por que a VolksWay?</a>
+                <a class="navegacao_header" href="../home/index.html#contato" onclick="btnMenu()">Contato</a>
 
             </div>
             <a href="" class="botao_cadastre">cadastrar-se</a>
@@ -61,7 +61,7 @@
                             <div class="home_container_entrar justify_center direction_column">
                                 <span class="amarelo">Acabou de chegar</span>
 
-                                <a href="">Entrar</a>
+                                <a href="../login/index.html#">Entrar</a>
                             </div>
 
                             <img class="home_img_banner" src="./img/caminhao_banner_home.png"
@@ -938,11 +938,10 @@
         </section>
     </main>
 
-
     <footer>
         <div class="container direction_row space_between align_center alinhamento_footer">
             <div>
-                <img class="img_footer" src="./img/logo.png" alt="Logo da Volkswagen">
+                <a href="#"><img class="img_footer" src="./img/logo_voksway.png" alt="Logo da VolksWay"></a>
                 <div id="contato">
                     <span>Como falar com a gente?</span>
                     <p class="footer_text">meajuda@VolksWay.com.br</p>
@@ -951,7 +950,7 @@
 
             <nav class="direction_column nav_desktop">
                 <a class="footer_text" href="#">Home</a>
-                <a class="footer_text" href="#objetivo">Como funciona</a>
+                <a class="footer_text" href="#objetivo">Nosso objetivo</a>
                 <a class="footer_text" href="../home/index.html#mais_vendidos">Mais vendidos</a>
                 <a class="footer_text" href="../home/index.html#quem_somos">Quem somos</a>
             </nav>
@@ -966,7 +965,7 @@
             <div class="nav_mobile">
                 <nav class="direction_column primeira_nav">
                     <a class="footer_text" href="#">Home</a>
-                    <a class="footer_text" href="#objetivo">Como funciona</a>
+                    <a class="footer_text" href="#objetivo">Nosso objetivo</a>
                     <a class="footer_text" href="#mais_vendidos">Mais vendidos</a>
                     <a class="footer_text" href="#quem_somos">Quem somos</a>
                 </nav>

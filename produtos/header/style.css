@@ -16,72 +16,9 @@
     --fonte-tamanho: 18px;
 }
 
-.container {
-    width: 90%;
-    height: 100%;
-    max-width: 1920px;
-    margin: auto;
-}
-
-.direction_column {
-    display: flex;
-    flex-direction: column;
-}
-
-.direction_row {
-    flex-direction: row;
-}
-
-.justify_center {
-    display: flex;
-    justify-content: center;
-}
-
-.align_center {
-    display: flex;
-    align-items: center;
-}
-
-.space_between {
-    justify-content: space-between;
-}
-
-.space_evenly {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.space_around {
-    justify-content: space-around;
-}
-
-
 /* Header */
-header {
-    background-color: var(--cor-primaria);
-    border-bottom: 3px solid var(--cor-secundaria);
-}
-
-header a {
-    font-family: var(--fonte-primaria);
-    text-decoration: none;
-    font-size: 24px;
-    color: var(--cor-branco);
-<<<<<<<< HEAD:produtos/header/style.css
-========
-    
->>>>>>>> privacidade:privacidade/header/style.css
-}
-
-header nav {
-    width: 47vw;
-}
-
-<<<<<<<< HEAD:produtos/header/style.css
-========
 
 
->>>>>>>> privacidade:privacidade/header/style.css
 .menu_barras {
     display: none;
 }
@@ -276,11 +213,7 @@ footer span {
         justify-content: initial;
         padding: 0% 5% 0% 5%;
     }
-<<<<<<<< HEAD:produtos/header/style.css
-    
-========
 
->>>>>>>> privacidade:privacidade/header/style.css
     .navegacao_header {
         margin-bottom: 3%;
         margin-top: 1%;
@@ -296,7 +229,6 @@ footer span {
         justify-content: space-between;
         display: flex;
     }
-<<<<<<<< HEAD:produtos/header/style.css
 }
 
 @media screen and (max-width: 600px) {
@@ -305,6 +237,4 @@ footer span {
         width: 7vw;
         fill: var(--cor-branco);
     }
-========
->>>>>>>> privacidade:privacidade/header/style.css
 }

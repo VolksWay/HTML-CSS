@@ -55,6 +55,13 @@
     justify-content: space-around;
 }
 
+.container_90 {
+    width: 90%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
 
 /* Header */
 header {
@@ -93,10 +100,10 @@ header nav {
 }
 
 /* Footer */
-footer {
+.footer_cadastro_empresa {
     background-color: var(--cor-primaria);
     width: 100vw;
-    height: 291px;
+    height: 10vh;
 }
 
 .footer_text {
@@ -194,7 +201,7 @@ footer span {
         flex-wrap: wrap;
     }
 
-    footer {
+    .footer_cadastro_empresa {
         height: 100%;
     }
 

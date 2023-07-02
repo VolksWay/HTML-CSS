@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Empresa - VolksWay</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header-footer/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,7 +17,7 @@
 
 <body>
     <header class="direction_row align_center posicionamento_header">
-        <img src="../cadastroEmpresa/header-footer/img/logo.png" alt="Logo da Volkswagen">
+        <a href="../home/index.html#"><img src="../home/img/logo_voksway.png" alt="Logo da VolksWay"></a>
 
         <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Abrir um menu"
             aria-controls="links" aria-expanded="false" aria-haspopup="true"><svg xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +26,7 @@
                     d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
             </svg></a>
 
-        <nav class="space_evenly links" id="links">
+        <nav class="space_evenly align_center links" id="links">
             <div>
                 <a href="#">volks<span>way</span></a>
                 <a href="#" id="menu_barras" class="menu_barras" onclick="btnMenu()" aria-label="Fechar um menu"
@@ -38,11 +39,10 @@
                 </a>
             </div>
             
-            <a class="navegacao_header" href="">Noticias</a>
-            <a class="navegacao_header" href="">Quem somos</a>
-            <a class="navegacao_header" href="">Por que a VolksWay?</a>
-            <a class="navegacao_header" href="">Contato</a>
-        </nav>
+            <a class="navegacao_header" href="../home/index.html#noticias" href="../home/index.html#noticias">Noticias</a>
+            <a class="navegacao_header" href="../home/index.html#quem_somos" href="../home/index.html#noticias">Quem somos</a>
+            <a class="navegacao_header" href="../home/index.html#por_que" href="../home/index.html#noticias">Por que a VolksWay?</a>
+            <a class="navegacao_header" href="../home/index.html#contato" href="../home/index.html#noticias">Contato</a>
     </header>
     <main>
 
@@ -96,7 +96,7 @@
 
 
 <footer>
-    <div class="container_80">
+    <div class="container_90">
         <span class="texto_privacidade">Entenda como estes dados serão utilizados na Volksway, conheça nossa <a href="../privacidade/privacidade.html#">Política de Privacidade</a>.</span>
     </div>
     <div class="box_footer"></div>
