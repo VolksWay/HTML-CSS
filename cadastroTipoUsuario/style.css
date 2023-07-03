@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -21,36 +22,7 @@
     --fonte-tamanho: 18px;
 }
 
-header {
-    border-bottom: 4px solid var(--yellow);
-    background-color: var(--dark_blue);
-    height: 100px;
-    display: flex;
-    align-items: center;
-}
-
-.logovwco {
-    width: 100px;
-    height: 121px;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    width: 550px;
-    margin-left: 70px;
-}
-
-header a {
-
-    color: white;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-family: var(--font1);
-    font-size: 18px;
-}
-
- .container {
+.container {
     width: 90%;
     height: 100%;
     max-width: 1920px;
@@ -89,6 +61,7 @@ header a {
     justify-content: space-around;
 }
 
+
 /* Header */
 header {
     background-color: var(--cor-primaria);
@@ -98,7 +71,7 @@ header {
 header a {
     font-family: var(--fonte-primaria);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     color: var(--cor-branco);
 }
 
@@ -124,6 +97,7 @@ header nav {
     font-weight: 400;
     backdrop-filter: blur(25px);
 }
+
 
 main {
     display: flex;
@@ -156,7 +130,7 @@ main {
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-
+    text-decoration: none;
     color: var(--dark_blue);
 
 }
@@ -216,7 +190,7 @@ main {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 30px;
 
 
@@ -305,8 +279,7 @@ main {
 
 /**/
 /*==============================================footer*/
-
-
+footer {
     .container_80 {
         width: 80%;
         height: 100%;
@@ -334,7 +307,7 @@ main {
         font-family: var(--fonte-primaria);
     }
 
-
+}
 
 section {
     /*     background-color:rgb(155, 245, 245); */
@@ -352,7 +325,6 @@ section {
     border-radius: 30px;
     margin-left: 65px;
     margin-top: -20px;
-    
 }
 
 .btnProximo {
@@ -459,13 +431,8 @@ section {
 
 
 @media screen and (max-width: 800px) {
-    .logovwco {
-        width: 16%;
-        height: 90%;
-    }
 
     .menu_barras svg {
-        
         height: 13vh;
         width: 4vw;
         fill: var(--cor-branco);
@@ -487,16 +454,15 @@ section {
     }
 
     .posicionamento_header nav {
-    display: none;
-    position: absolute;
-    top: 0;
-    height: 100vh;
-    width: 121vh;
-    background-color: #12264B;
-    flex-direction: column;
-    z-index: 1;
-    border: 1px solid var(--branco);
-    margin-left: 0;
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: #12264B;
+        flex-direction: column;
+        z-index: 1;
+        border: 1px solid var(--branco);
     }
 
     .primeira_nav {
@@ -559,8 +525,6 @@ section {
 
     .tres_opcoes {
         gap: 10px;
-        /* justify-content: center; */
-        /* margin-right: 10px; */
         width: 50%;
     }
 
@@ -581,7 +545,7 @@ section {
     }
 }
 
-@media screen and (max-width: 550px) {
+ @media screen and (max-width: 550px) {
     .tres_opcoes {
         flex-direction: column;
     }
@@ -590,20 +554,22 @@ section {
         height: 1000px;
     }
 
-}
+} 
 
-@media screen and (max-width: 460px) {
+ @media screen and (max-width: 460px) {
     main {
-        height: 1134px;
+        height: 1214px;
     }
 
     .conteudo {
-        height: 1315px;
+        width: 310px;
+        height: 1080px;
     }
 
     .quemEVoce {
-        font-size: 22px;
-    }
+        width: 135px;
+    font-size: 23px;
+}
 
     .seDestaca {
         width: 269px;
@@ -611,25 +577,28 @@ section {
     }
 
     .pergunta_opcao {
+        margin-top: 2px;
+        margin-bottom: 21px;
         font-weight: 800;
-        font-size: 9px;
+        font-size: 15px;
     }
 
     .btn_proximo {
-        width: 209px;
+        width: 224px;
     }
 
     .tres_opcoes {
+        align-items: baseline;
         width: 77%;
     }
 
     section {
         height: 1063px;
-        width: 320px;
+       /*  width: 320px; */
     }
-}
+} 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     .quemEVoce {
         width: 122px;
         font-size: 17px;
