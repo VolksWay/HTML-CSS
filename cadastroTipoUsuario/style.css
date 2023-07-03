@@ -279,7 +279,7 @@ main {
 
 /**/
 /*==============================================footer*/
-footer {
+
     .container_80 {
         width: 80%;
         height: 100%;
@@ -307,7 +307,7 @@ footer {
         font-family: var(--fonte-primaria);
     }
 
-}
+
 
 section {
     /*     background-color:rgb(155, 245, 245); */
