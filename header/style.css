@@ -59,7 +59,10 @@
 .banner_home {
     width: 100%;
     height: 450px;
-    background-image: url(../img/adm.png);
+    background-image: url(../img/costeletiom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -107,9 +110,7 @@ h1 {
 }
 
 .banner_home {
-    width: 100%;
-    height: 510px;
-    background-image: url(../img/adm.png);
+   
     color: #00B0FF;
     display: flex;
     flex-direction: row;
