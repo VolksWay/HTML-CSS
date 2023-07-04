@@ -80,6 +80,12 @@ header nav {
     width: 47vw;
 }
 
+header img{
+    width: 120px;
+    min-width: 120px;
+}
+
+
 .menu_barras {
     display: none;
 }
