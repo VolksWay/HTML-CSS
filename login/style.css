@@ -150,8 +150,21 @@ form {
 }
 
 
-.alinhamento_campos_Entrar button {
+/* .alinhamento_campos_Entrar button {
   align-items: center;
+  font-family: 'Poppins';
+  height: 57px;
+  width: 203px;
+  border-radius: 30px;
+  border: none;
+  background-color: #00B1EB;
+
+} */
+
+.alinhamento_campos_Entrar a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   font-family: 'Poppins';
   height: 57px;
   width: 203px;
