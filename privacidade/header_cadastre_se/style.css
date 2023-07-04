@@ -110,7 +110,6 @@ header nav {
     text-align: center;
     color: var(--cor-primaria);
     padding: 0.7% 1.8%;
-    text-transform: capitalize;
 }
 
 .nav_header_conteudo {
