@@ -155,7 +155,9 @@ form {
 }
 
 
-.alinhamento_campos_Entrar button {
+.alinhamento_campos_Entrar a {
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-family: 'Poppins';
   height: 57px;
