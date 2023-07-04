@@ -235,7 +235,6 @@ footer {
 
 .box_footer{
   background-color: var(--cor-primaria);
-  width: 100vw;
   height: 20px;
 }
 
