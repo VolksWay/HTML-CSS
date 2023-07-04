@@ -662,6 +662,10 @@
     .faz_diferenca_card {
         height: 28vh;
     }
+
+    .secao_nosso_objetivo{
+        height: 77vh;
+    }
 }
 
 @media screen and (max-width: 1450px) {
