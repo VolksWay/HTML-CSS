@@ -48,7 +48,7 @@
 
 .space_evenly {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 .space_around {
@@ -106,12 +106,12 @@ header nav {
     border-radius: 27px;
     font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 1em;
+    font-size: 16px;
     text-align: center;
     color: var(--cor-primaria);
     padding: 0.7% 1.8%;
-   /*  text-transform: capitalize; */
-    min-width: 180px;
+    min-width: 160px;
+    font
 }
 
 .nav_header_conteudo {
@@ -159,6 +159,8 @@ header nav {
     .imgs_social_medias {
         width: 17%;
     }
+    
+
 }
 
 @media screen and (max-width: 1405px) {
