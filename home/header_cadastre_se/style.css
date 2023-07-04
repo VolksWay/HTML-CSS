@@ -58,6 +58,7 @@ header img{
     text-align: center;
     color: var(--cor-primaria);
     padding: 0.7% 1.8%;
+    min-width: 160px;
 }
 
 .nav_header_conteudo {
