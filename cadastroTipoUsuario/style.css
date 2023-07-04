@@ -223,6 +223,7 @@ main {
     color: var(--dark_blue);
     font-weight: bold;
     text-decoration: none;
+    font-family: var(--fonte-primaria);
 }
 
 /*===============================admFrota*/
@@ -249,6 +250,7 @@ main {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    font-family: var(--fonte-primaria);
 }
 
 /*===============================proprietario*/
@@ -275,6 +277,7 @@ main {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    font-family: var(--fonte-primaria);
 }
 
 /**/
