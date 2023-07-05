@@ -95,6 +95,10 @@ main {
     color: var(--dark_blue);
 }
 
+.voltar{
+    text-decoration: none;
+}
+
 .conteudo {
     flex-direction: column;
     display: flex;

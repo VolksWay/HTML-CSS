@@ -15,6 +15,14 @@
     --fonte-primaria: 'Poppins', sans-serif;
     --fonte-tamanho: 18px;
 }
+h1{
+    margin-top: 60px;
+}
+
+header img{
+    width: 120px;
+    min-width: 120px;
+}
 
 .container {
     width: 90%;
@@ -62,16 +70,31 @@ header {
     border-bottom: 3px solid var(--cor-secundaria);
 }
 
-header a {
+/* header a {
     font-family: var(--fonte-primaria);
     text-decoration: none;
     font-size: 24px;
     color: var(--cor-branco);
-}
+} */
 
 header nav {
     width: 47vw;
 }
+
+header img{
+    width: 120px;
+    min-width: 120px;
+}
+
+
+.nav_header_conteudo, header a {
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cor-branco);
+    padding: 10px;
+}
+
 
 .menu_barras {
     display: none;
@@ -93,7 +116,7 @@ header nav {
 }
 
 .chamada {
-    width: 500px;
+    width: 400px;
     height: 150px;
     color: #12264B;
     font-size: var(--cor-primaria);
@@ -102,7 +125,7 @@ header nav {
 }
 
 .div_voltar {
-    height: 50px;
+    
     width: 100px;
     display: flex;
     align-items: center;
@@ -115,6 +138,7 @@ header nav {
     width: 35px;
     height: 32px;
     color: var(--dark_blue);
+    flex-direction: column;
 }
 
 .spanVoltar {
@@ -125,28 +149,35 @@ header nav {
     line-height: 36px;
     margin-left: 20%;
     color: var(--dark_blue);
+   
+
+}
+.conteudo_cadVeiculo{
+align-items: center;
+margin: 20px;
+padding-left: 50px;
+
 
 }
 
+
 .cadastroVeiculo {
     width: 100%;
-    height: 485px;
+    height: 100%;
     background-color: var(--cor-branco);
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-tamanho);
     color: #12264B;
     display: flex;
     flex-direction: row;
-    padding-left: 70px;
+    padding-left: 25px;
     justify-content: space-between;
 
 }
 
-.fundo {
-    width: 600px;
-    height: 450px;
-    display: flex;
-    justify-content: end;
+.fundo{
+    width: 592px;
+    height: 100%;
 
 }
 
@@ -160,11 +191,10 @@ header nav {
 }
 
 .cadVeiculo1 {
-    width: 450px;
+    width: 100%;
     height: 35px;
     border-radius: 30px;
     background: #EDEDED;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border: none;
 
 
@@ -348,7 +378,8 @@ header nav {
 
     }
     .cadastroVeiculo{
-        padding-left: 0;
+        padding-left: 14px;
+        height: 600px;
     }
 }
 
@@ -362,7 +393,7 @@ header nav {
 
     .chamada {
         width: 400px;
-        height: 220px;
+        height: 180px;
         justify-content: center;
 
 
@@ -370,19 +401,28 @@ header nav {
     }
 
     .cadastroVeiculo {
-        width: 100%;
-        height: 587px;
+       
+        height: 700px;
+        align-items: center;
+        padding-left: 14px;
         
 
 
     }
+    .texto_privacidade{
+
+        display: none;
+    }
+       
+    
 }
 
 @media screen and (max-width: 360px) {
 
     .cadVeiculo1 {
         width: 285px;
-        
+    
+        padding-left: 8px;
     }
 
     .chamada {
@@ -398,11 +438,15 @@ header nav {
 
     .cadastroVeiculo {
         width: 100%;
-        height: 600px;
-       padding-left: 3px;
+        height: 700px;
+
+        align-items: center;
 
 
     }
-
+.conteudo_cadVeiculo{
+    padding-left: 5px;
+    
+}
 
 }

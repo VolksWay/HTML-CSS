@@ -73,6 +73,12 @@ header nav {
     width: 47vw;
 }
 
+header img{
+    width: 120px;
+    min-width: 120px;
+}
+
+
 .menu_barras {
     display: none;
 }
@@ -116,7 +122,7 @@ footer span {
 }
 
 .img_footer {
-    margin-left: -22%;
+    margin-left: -11%;
     width: 213px;
     height: 154px;
 }

@@ -48,7 +48,7 @@
 
 .space_evenly {
     display: flex;
-    /* justify-content: space-evenly; */
+    
 }
 
 .space_around {
@@ -82,6 +82,12 @@ header nav {
     width: 100vw;
 }
 
+header img{
+    width: 120px;
+    min-width: 120px;
+}
+
+
 .menu_barras {
     display: none;
 }
@@ -110,7 +116,7 @@ header nav {
     text-align: center;
     color: var(--cor-primaria);
     padding: 0.7% 1.8%;
-    text-transform: capitalize;
+    min-width: 160px;
 }
 
 .nav_header_conteudo {
@@ -148,7 +154,7 @@ footer span {
 }
 
 .img_footer {
-    margin-left: -22%;
+    margin-left: -11%;
     width: 213px;
     height: 154px;
 }

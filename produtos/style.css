@@ -100,18 +100,34 @@ header a {
 header {
     background-color: var(--cor-primaria);
     border-bottom: 3px solid var(--cor-secundaria);
+    padding: 10px;
 }
 
+/* header a {
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cor-branco);
+} */
+
+.nav_header_conteudo, 
 header a {
     font-family: var(--fonte-primaria);
     text-decoration: none;
     font-size: 24px;
     color: var(--cor-branco);
+    padding: 10px;
 }
 
 header nav {
     width: 47vw;
 }
+
+header img{
+    width: 120px;
+    min-width: 120px;
+}
+
 
 .menu_barras {
     display: none;
@@ -847,7 +863,7 @@ footer span {
 }
 
 .img_footer {
-    margin-left: -22%;
+    margin-left: -11%;
     width: 213px;
     height: 154px;
 }
