@@ -155,7 +155,9 @@ form {
 }
 
 
-.alinhamento_campos_Entrar button {
+.alinhamento_campos_Entrar a {
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-family: 'Poppins';
   height: 57px;
@@ -233,7 +235,7 @@ footer {
 .box_footer{
   background-color: var(--cor-primaria);
   width: 100%;
-  height: 20px;
+  height: 30px;
 }
 
 .login_img_conteudo{
