@@ -48,7 +48,7 @@
 
 .space_evenly {
     display: flex;
-    /* justify-content: space-evenly; */
+    
 }
 
 .space_around {

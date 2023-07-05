@@ -62,16 +62,31 @@ header {
     border-bottom: 3px solid var(--cor-secundaria);
 }
 
-header a {
+/* header a {
     font-family: var(--fonte-primaria);
     text-decoration: none;
     font-size: 24px;
     color: var(--cor-branco);
-}
+} */
 
 header nav {
     width: 47vw;
 }
+
+header img{
+    width: 120px;
+    min-width: 120px;
+}
+
+
+.nav_header_conteudo, header a {
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cor-branco);
+    padding: 10px;
+}
+
 
 .menu_barras {
     display: none;

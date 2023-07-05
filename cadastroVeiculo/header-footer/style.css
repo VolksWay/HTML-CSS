@@ -69,6 +69,15 @@ header a {
     color: var(--cor-branco);
 }
 
+/* .nav_header_conteudo, header a {
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cor-branco);
+    padding: 10px;
+} */
+
+
 header nav {
     width: 47vw;
 }

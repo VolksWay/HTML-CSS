@@ -60,6 +60,7 @@
 header {
     background-color: var(--cor-primaria);
     border-bottom: 3px solid var(--cor-secundaria);
+    padding: 10px;
 }
 
 header a {
