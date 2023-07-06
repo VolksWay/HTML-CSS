@@ -344,6 +344,7 @@ section {
     display: flex;
     width: 303px;
     height: 57px;
+    color: var(--cor-preto);
     background: #FFD100;
     border-radius: 30px;
     margin-left: 65px;
@@ -355,6 +356,7 @@ section {
     border-radius: 30px;
     text-decoration: none;
     font-family: var(--fonte-primaria);
+    color: var(--cor-preto);
     text-transform: capitalize;
 }
 
